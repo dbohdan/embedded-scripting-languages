@@ -8,6 +8,8 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [ChaiScript](http://chaiscript.com/) | C++ | Ref. counting | 3-clause BSD | |
 | [Chibi Scheme](https://github.com/ashinn/chibi-scheme) | C | Tracing | 3-clause BSD | Implements R7RS small. |
 | [Duktape](http://duktape.org/) | C | Tracing | MIT | Implements JavaScript E5/E5.1. |
+| [Embeddable Common Lisp](https://gitlab.com/embeddable-common-lisp/ecl) | Common Lisp, C | Boehm-Weiser GC | LGPL | Full Common Lisp implementation, available as a shared library libecl.so embeddable in any C, C++ or other application. |
+| [Clasp](https://github.com/drmeister/clasp) | Common Lisp, C++ | MPS GC (Boehm-Weiser also supported) | LGPL | Full Common Lisp implementation well integrated with C++, using LLVM for the code generation, to integrate closely with C++ applications or libraries. |
 | [Jim Tcl](http://jim.tcl-lang.org/) | C | Tracing | 2-clause BSD | Largely compatible with Tcl 8.5 with its own additions. |
 | [lil](http://runtimelegend.com:3110/badsector/lil) | C, Object Pascal (separate implementations) | ? | zlib | A Tcl-like language incompatible with mainline Tcl. |
 | [Lua](http://lua.org/) | C | Tracing | MIT | |
