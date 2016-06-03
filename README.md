@@ -22,6 +22,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [Squirrel](http://squirrel-lang.org/) | C++ | Ref. counting | MIT | |
 | [Tcl](http://tcl-lang.org/) | C | Ref. counting | Tcl license (BSD-like) | |
 | [TinyScheme](http://tinyscheme.sourceforge.net/) | C | Tracing? | 3-clause BSD | Implements a subset of R5RS. |
+| [Wren](https://github.com/munificent/wren) | C | Tracing | MIT | A small class-based performance-oriented scripting language. |
 
 # Contributing
 
