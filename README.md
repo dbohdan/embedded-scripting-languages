@@ -13,7 +13,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [Espruino](https://github.com/espruino/Espruino) | C | Tracing | MPL 2.0 | Implements a subset of JavaScript ES5 in a way suitable for embedded hardware with 8+ KiB RAM. |
 | [GNU Guile](https://www.gnu.org/software/guile/) | C | [Boehm](https://www.gnu.org/software/guile/manual/html_node/Conservative-GC.html) | LGPL 3+ | |
 | [Jim Tcl](http://jim.tcl-lang.org/) | C | Tracing | 2-clause BSD | Largely compatible with Tcl 8.5 with its own additions. |
-| [lil](http://runtimelegend.com:3110/badsector/lil) | C, Object Pascal (separate implementations) | ? | zlib | A Tcl-like language incompatible with mainline Tcl. |
+| [LIL](http://runtimeterror.com/tech/lil/) | C, Object Pascal (separate implementations) | ? | zlib | A Tcl-like language incompatible with mainline Tcl. |
 | [Lua](http://lua.org/) | C | Tracing | MIT | |
 | [Mono](http://www.mono-project.com/docs/advanced/embedding/scripting/) | C | Tracing | MIT and other | Implements the [CLR](https://en.wikipedia.org/wiki/Common_Language_Runtime). |
 | [mruby](https://github.com/mruby/mruby) | C | Tracing | MIT | |
