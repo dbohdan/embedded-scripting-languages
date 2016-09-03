@@ -19,6 +19,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [JTcl](https://github.com/jtcl-project/jtcl) | Java | Ref. counting | Various BSD-like | Tcl 8.4 with some 8.5 features for the JVM. |
 | [LIL](http://runtimeterror.com/tech/lil/) | C, Object Pascal (separate implementations) | None (no reference support) | zlib | A Tcl-like language incompatible with mainline Tcl. |
 | [Lua](http://lua.org/) | C | Tracing | MIT | |
+| [luerl](https://github.com/rvirding/luerl) | Erlang | Tracing | An implementation of Lua 5.2 in pure Erlang with some features like `goto` absent. |
 | [Mono](http://www.mono-project.com/docs/advanced/embedding/scripting/) | C | Tracing | MIT and other | Implements the [CLR](https://en.wikipedia.org/wiki/Common_Language_Runtime). |
 | [mruby](https://github.com/mruby/mruby) | C | Tracing | MIT | |
 | [Pascal Script](http://www.remobjects.com/ps.aspx) | Object Pascal | Manual MM | Custom non-copyleft | Implements "most of Object Pascal". Can't define new classes. |
