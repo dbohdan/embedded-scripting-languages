@@ -24,6 +24,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [LuaJIT](http://luajit.org/) | C | Tracing | MIT | Fully compatible with Lua 5.1. Has a uilt-in C FFI library. Very fast. |
 | [Mono](http://www.mono-project.com/docs/advanced/embedding/scripting/) | C | Tracing | MIT and other | Implements the [CLR](https://en.wikipedia.org/wiki/Common_Language_Runtime). |
 | [mruby](https://github.com/mruby/mruby) | C | Tracing | MIT | |
+| [otto](https://github.com/robertkrimen/otto) | Go | Tracing (Go's GC) | MIT | Implements ES5 with [some limitations](https://github.com/robertkrimen/otto#caveat-emptor). |
 | [Pascal Script](http://www.remobjects.com/ps.aspx) | Object Pascal | Manual MM | Custom non-copyleft | Implements "most of Object Pascal". Can't define new classes. |
 | [Pawn](http://www.compuphase.com/pawn/pawn.htm) | C | None (no heap allocation) | Apache License 2.0 with a static linking clause to explicitly permit static linking | |
 | [Python](https://www.python.org/) | C | Ref. counting + cycle-detecting GC | PSFL (BSD-like) | [Embedding Python in Another Application](https://docs.python.org/3.5/extending/embedding.html). |
