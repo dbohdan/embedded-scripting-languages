@@ -8,8 +8,8 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [ChaiScript](http://chaiscript.com/) | C++ | Ref. counting | 3-clause BSD | |
 | [Chibi Scheme](https://github.com/ashinn/chibi-scheme) | C | Tracing | 3-clause BSD | Implements R7RS small. |
 | [Clasp](https://github.com/drmeister/clasp) | Common Lisp, C++ | MPS GC (Boehm-Weiser also supported) | LGPL 2+ | Full Common Lisp implementation well integrated with C++, using LLVM for the code generation, to integrate closely with C++ applications or libraries. |
-| [Duktape](http://duktape.org/) | C | Ref. counting + Tracing | MIT | Implements JavaScript E5/E5.1. |
-| [DWScript](https://bitbucket.org/egrange/dwscript/) | Object Pascal (Delphi 2009 or later) | Ref. counting + cycle-detecting GC | MPL 1.1, GPL 3 (JavaScript code generator) | [Description](https://www.delphitools.info/dwscript). A statically typed Delphi/Free Pascal-like language. Can compile to JavaScript. |
+| [Duktape](http://duktape.org/) | C | Ref. counting + cycle-detecting tracing GC | MIT | Implements JavaScript E5/E5.1. |
+| [DWScript](https://bitbucket.org/egrange/dwscript/) | Object Pascal (Delphi 2009 or later) | Ref. counting + cycle-detecting tracing GC | MPL 1.1, GPL 3 (JavaScript code generator) | [Description](https://www.delphitools.info/dwscript). A statically typed Delphi/Free Pascal-like language. Can compile to JavaScript. |
 | [Embeddable Common Lisp](https://gitlab.com/embeddable-common-lisp/ecl) | Common Lisp, C | Boehm-Weiser GC | LGPL 2+ | Full Common Lisp implementation, available as a shared library libecl.so embeddable in any C, C++ or other application. |
 | [Espruino](https://github.com/espruino/Espruino) | C | Tracing | MPL 2.0 | Implements a subset of JavaScript ES5 in a way suitable for embedded hardware with 8+ KiB RAM. |
 | [Go-Lua](https://github.com/Shopify/go-lua) | Go | Tracing (Go's GC) | MIT | Implements a subset of Lua 5.2. |
@@ -27,7 +27,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [otto](https://github.com/robertkrimen/otto) | Go | Tracing (Go's GC) | MIT | Implements ES5 with [some limitations](https://github.com/robertkrimen/otto#caveat-emptor). |
 | [Pascal Script](http://www.remobjects.com/ps.aspx) | Object Pascal | Manual MM | Custom non-copyleft | Statically typed. Implements "most of Object Pascal". Can't define new classes. |
 | [Pawn](http://www.compuphase.com/pawn/pawn.htm) | C | None (no heap allocation) | Apache License 2.0 with a static linking clause to explicitly permit static linking | |
-| [Python](https://www.python.org/) | C | Ref. counting + cycle-detecting GC | PSFL (BSD-like) | [Embedding Python in Another Application](https://docs.python.org/3.5/extending/embedding.html). |
+| [Python](https://www.python.org/) | C | Ref. counting + cycle-detecting tracing GC | PSFL (BSD-like) | [Embedding Python in Another Application](https://docs.python.org/3.5/extending/embedding.html). |
 | [Squirrel](http://squirrel-lang.org/) | C++ | Ref. counting | MIT | |
 | [Tcl](http://tcl-lang.org/) | C | Ref. counting | Tcl license (BSD-like) | |
 | [TinyScheme](http://tinyscheme.sourceforge.net/) | C | Tracing? | 3-clause BSD | Implements a subset of R5RS. |
