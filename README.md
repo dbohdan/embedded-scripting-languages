@@ -19,7 +19,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [Jim Tcl](http://jim.tcl-lang.org/) | C | Tracing | 2-clause BSD | Largely compatible with Tcl 8.5 with its own additions. |
 | [JTcl](https://github.com/jtcl-project/jtcl) | Java | Ref. counting | Various BSD-like | Tcl 8.4 with some 8.5 features for the JVM. |
 | [LIL](http://runtimeterror.com/tech/lil/) | C, Object Pascal (separate implementations) | None (no reference support) | zlib | A Tcl-like language incompatible with mainline Tcl. |
-| [szl](https://github.com/dimkr/szl) | C | Ref. counting | MIT | A small and simple Tcl-like language, with a set of bindings and FFI. |
+| [Lily](https://github.com/FascinatedBox/lily/) | C | Ref. counting + GC | MIT | A language focusing on expressiveness and safety. [How to embed and extend Lily.](http://lily-lang.org/embed_and_extend.html) |
 | [Lua](http://lua.org/) | C | Tracing | MIT | |
 | [luerl](https://github.com/rvirding/luerl) | Erlang | Tracing | Apache License 2.0 | An implementation of Lua 5.2 in pure Erlang with some features like `goto` absent. |
 | [LuaJ](https://sourceforge.net/projects/luaj/) | Java | Tracing (JVM's GC) | MIT | A Lua 5.2 spec-compliant interpreter written in Java for JME and JSE. Complies Lua directly to JVM bytecode. |
@@ -31,6 +31,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [Pawn](http://www.compuphase.com/pawn/pawn.htm) | C | None (no heap allocation) | Apache License 2.0 with a static linking clause to explicitly permit static linking | |
 | [Python](https://www.python.org/) | C | Ref. counting + cycle-detecting tracing GC | PSFL (BSD-like) | [Embedding Python in Another Application](https://docs.python.org/3.5/extending/embedding.html). |
 | [Squirrel](http://squirrel-lang.org/) | C++ | Ref. counting | MIT | |
+| [szl](https://github.com/dimkr/szl) | C | Ref. counting | MIT | A small and simple Tcl-like language, with a set of bindings and FFI. |
 | [Tcl](http://tcl-lang.org/) | C | Ref. counting | Tcl license (BSD-like) | |
 | [TinyScheme](http://tinyscheme.sourceforge.net/) | C | Tracing? | 3-clause BSD | Implements a subset of R5RS. |
 | [Wren](https://github.com/munificent/wren) | C | Tracing | MIT | A small class-based performance-oriented scripting language. |
