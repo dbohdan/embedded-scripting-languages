@@ -19,6 +19,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [Jim Tcl](http://jim.tcl-lang.org/) | C | Tracing | 2-clause BSD | Largely compatible with Tcl 8.5 with its own additions. |
 | [JTcl](https://github.com/jtcl-project/jtcl) | Java | Ref. counting | Various BSD-like | Tcl 8.4 with some 8.5 features for the JVM. |
 | [LIL](http://runtimeterror.com/tech/lil/) | C, Object Pascal (separate implementations) | None (no reference support) | zlib | A Tcl-like language incompatible with mainline Tcl. |
+| [szl](https://github.com/dimkr/szl) | C | Ref. counting | MIT | A small and simple Tcl-like language, with a set of bindings and FFI. |
 | [Lua](http://lua.org/) | C | Tracing | MIT | |
 | [luerl](https://github.com/rvirding/luerl) | Erlang | Tracing | Apache License 2.0 | An implementation of Lua 5.2 in pure Erlang with some features like `goto` absent. |
 | [LuaJ](https://sourceforge.net/projects/luaj/) | Java | Tracing (JVM's GC) | MIT | A Lua 5.2 spec-compliant interpreter written in Java for JME and JSE. Complies Lua directly to JVM bytecode. |
