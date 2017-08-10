@@ -4,7 +4,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 
 | Project name/link | Implementation language | GC | License | Notes |
 |-------------------|-------------------------|----|---------|-------|
-| [AngelScript](http://www.angelcode.com/angelscript/) | C++ | Ref. counting | zlib | A curly brace language resembling C++ itself. |
+| [AngelScript](http://www.angelcode.com/angelscript/) | C++ | Ref. counting | zlib | A statically typed curly brace language resembling C++ itself. |
 | [ChaiScript](http://chaiscript.com/) | C++ | Ref. counting | 3-clause BSD | |
 | [Chibi Scheme](https://github.com/ashinn/chibi-scheme) | C | Tracing | 3-clause BSD | Implements R7RS small. |
 | [CHICKEN Scheme](https://call-cc.org/) | C | Tracing | 3-clause BSD | Implements R5RS (with some [changes](http://wiki.call-cc.org/man/4/Supported%20language)). R7RS support is a work in progress. [Examples of embedding CHICKEN](https://wiki.call-cc.org/embedding). |
