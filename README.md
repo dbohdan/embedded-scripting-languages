@@ -40,6 +40,10 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [TinyScheme](http://tinyscheme.sourceforge.net/) | C | Tracing? | 3-clause BSD | Implements a subset of R5RS. |
 | [Wren](https://github.com/munificent/wren) | C | Tracing | MIT | A small class-based performance-oriented scripting language. |
 
+# See also
+
+* [Game scripting languages benchmarked](https://github.com/r-lyeh/scriptorium).
+
 # Contributing
 
 Your contributions are welcome! Please submit a pull request or create an issue to add a new language to the list.
