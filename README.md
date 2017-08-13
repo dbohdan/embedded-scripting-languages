@@ -42,7 +42,6 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [gmqcc/qcvm](https://github.com/graphitemaster/gmqcc) | C++ | None (no dynamic memory allocation) | MIT | A QuakeC compiler and VM. |
 | [s7](https://ccrma.stanford.edu/software/snd/snd/s7.html) | C | Tracing | 3-clause BSD | Implements a subset of R5RS/R7RS. Descended from TinyScheme. |
 | [Squirrel](http://squirrel-lang.org/) | C++ | Ref. counting | MIT | |
-| [szl](https://github.com/dimkr/szl) | C | Ref. counting | MIT | A small and simple Tcl-like language, with a set of bindings and FFI. |
 | [Tcl](http://tcl-lang.org/) | C | Ref. counting | Tcl license (BSD-like) | An embeddable general-purpose scripting language with a rich C API. Has a cross-platform GUI toolkit called [Tk](https://tcl.wiki/477). [How to embed Tcl in C applications](https://tcl.wiki/2074). |
 | [TinyScheme](http://tinyscheme.sourceforge.net/) | C | Tracing? | 3-clause BSD | Implements a subset of R5RS. |
 | [Wren](https://github.com/munificent/wren) | C | Tracing | MIT | A small class-based performance-oriented scripting language. |
