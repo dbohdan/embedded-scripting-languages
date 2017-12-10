@@ -46,6 +46,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [Tcl](http://tcl-lang.org/) | C | Ref. counting | Tcl license (BSD-like) | An embeddable general-purpose scripting language with a rich C API. Has a cross-platform GUI toolkit called [Tk](https://tcl.wiki/477). [How to embed Tcl in C applications](https://tcl.wiki/2074). |
 | [TinyScheme](http://tinyscheme.sourceforge.net/) | C | Tracing? | 3-clause BSD | Implements a subset of R5RS. |
 | [Wren](https://github.com/munificent/wren) | C | Tracing | MIT | A small class-based performance-oriented scripting language. |
+| [zygomys](https://github.com/glycerine/zygomys) | Go | Tracing (Go's GC) | 2-clause BSD | An embedded Lisp for Go. Inspired by Clojure, but more oriented towards imperative programming. Has an infix syntax layer that looks like a subset of Go. |
 
 # See also
 
