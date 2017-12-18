@@ -20,7 +20,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [GNU Guile](https://www.gnu.org/software/guile/) | C | [Boehm](https://www.gnu.org/software/guile/manual/html_node/Conservative-GC.html) | LGPL 3+ | ["Guile mostly implements R6RS."](https://www.gnu.org/software/guile/manual/guile.html#R6RS-Support) |
 | [Io](https://github.com/stevedekorte/io) | C | Tracing | 3-clause BSD | A prototype-based OO language. |
 | [JerryScript](https://github.com/jerryscript-project/jerryscript) | C | Tracing | Apache License 2.0 | A full ECMAScript 5.1 interpreter written in C99 and optimized for low memory consumption. Uses CMake. |
-| [JRuby](http://jruby.org/) | Java | JVM's GC | EPL/GPL/LGPL | JRuby, an implementation of Ruby on the JVM |
+| [JRuby](http://jruby.org/) | Java | JVM's GC | Choice of EPL, GPL, and LGPL | An implementation of Ruby on the JVM. |
 | [Jim Tcl](http://jim.tcl-lang.org/) | C | Tracing | 2-clause BSD | Largely compatible with Tcl 8.5 with its own additions. |
 | [JTcl](https://github.com/jtcl-project/jtcl) | Java | Ref. counting | Various BSD-like | Tcl 8.4 with some 8.5 features for the JVM. |
 | [Kawa](https://www.gnu.org/software/kawa/) | Java | JVM's GC | MIT | R7RS. Supports the javax.script API. [Evaluating Scheme expressions from Java](https://www.gnu.org/software/kawa/Evaluating-Scheme-expressions-from-Java.html). |
