@@ -1,4 +1,4 @@
-# Embedded scripting languages
+-# Embedded scripting languages
 
 The following is a list of reasonably mature open source embedded scripting languages to use in your application.
 
@@ -61,7 +61,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 
 # Contributing
 
-Your contributions are welcome! I am looking for language implementations that are either actively maintained or largely "done" and have a free (*libre*) license. Non-copyleft licenses are preferred, but limited-scope copyleft (e.g., the LGPL for a VM or the GPL for a bytecode compiler that isn't needed at runtime) is fine. Please submit a pull request or create an issue to add a new language to the list.
+Your contributions are welcome! Please submit a pull request or create an issue to add a new language to the list. I am looking for language implementations that are either actively maintained or largely "done". The VM and the standard library, if any, must have a free (*libre*), non-copyleft or limited-scope copyleft license (e.g., the GNU LGPL or the MPL, but not the GNU GPL). If the main bytecode compiler is a separate program, it must have a license that doesn't automatically apply to its output. Optional add-ons may have any license: from strong copyleft to proprietary.
 
 # License
 
