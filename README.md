@@ -1,4 +1,4 @@
--# Embedded scripting languages
+# Embedded scripting languages
 
 The following is a list of reasonably mature open source embedded scripting languages to use in your application.
 
