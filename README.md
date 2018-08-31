@@ -58,6 +58,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [TinyScheme](http://tinyscheme.sourceforge.net/) | C | Tracing? | 3-clause BSD | Implements a subset of R5RS. |
 | [Wren](https://github.com/munificent/wren) | C | Tracing | MIT | A small class-based performance-oriented scripting language. |
 | [zygomys](https://github.com/glycerine/zygomys) | Go | Tracing (Go's GC) | 2-clause BSD | An embedded Lisp for Go. Inspired by Clojure, but more oriented towards imperative programming. Has an infix syntax layer that looks like a subset of Go. |
+| [Rig](https://github.com/raystubbs/rig) | C | Tracing | MIT | Lua-inspired, emphasis on a minimalistic and consistent syntax, keeps a small memory footprint by using records with shared lookup tables. |
 
 # See also
 
