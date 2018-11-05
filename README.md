@@ -9,6 +9,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [Atlast](https://www.fourmilab.ch/atlast/) | C | None (manual MM) | Public domain | A dialect of Forth originally developed at Autodesk. |
 | [Anko](https://github.com/mattn/anko/) | Go | Tracing (Go's GC) | MIT | Scriptable interpreter with syntax similar to Go. |
 | [BeanShell](https://github.com/beanshell/beanshell/) | Java | JVM's GC | Apache License 2.0 | An small, embeddable Java source code interpreter. Understands Java code with version 1.1 syntax, meaning no generics or lambdas, but extends Java with, e.g., method closures. A [fork](https://github.com/pejobo/beanshell2) that supports generics is [being merged](https://github.com/beanshell/beanshell/tree/merge-fork-beanshell2). |
+| [Boron](http://urlan.sourceforge.net/boron/) | C | Tracing | LGPL 3+ | An embeddable scripting language similar to Rebol. |
 | [Cascalog](https://github.com/nathanmarz/cascalog) | Clojure | JVM's GC | Apache License 2.0 | Implements Datalog. |
 | [ChaiScript](http://chaiscript.com/) | C++ | Ref. counting | 3-clause BSD | A header-only C++14 interpreter library. |
 | [Chibi Scheme](https://github.com/ashinn/chibi-scheme) | C | Tracing | 3-clause BSD | Implements R7RS small. |
