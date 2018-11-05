@@ -71,6 +71,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 # See also
 
 * [Game scripting languages benchmarked](https://github.com/r-lyeh/scriptorium).
+* [miniKanren](http://minikanren.org/#implementations) logic programming language implementations.
 
 # Contributing
 
