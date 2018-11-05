@@ -4,6 +4,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 
 | Project name/link | Implementation language | GC | License | Notes |
 |-------------------|-------------------------|----|---------|-------|
+| [AbcDatalog](http://abcdatalog.seas.harvard.edu/) | Java | JVM's GC | 3-clause BSD | Implements Datalog. |
 | [AngelScript](http://www.angelcode.com/angelscript/) | C++ | Ref. counting + cycle-detecting tracing GC | zlib | A statically typed curly brace language resembling C++ itself. |
 | [Atlast](https://www.fourmilab.ch/atlast/) | C | None (manual MM) | Public domain | A dialect of Forth originally developed at Autodesk. |
 | [Anko](https://github.com/mattn/anko/) | Go | Tracing (Go's GC) | MIT | Scriptable interpreter with syntax similar to Go. |
