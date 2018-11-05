@@ -26,6 +26,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [FTH](http://fth.sourceforge.net) | C | Tracing | 2-clause BSD | A dialect of Forth with objects, hashes, regular expressions, and other extensions. |
 | [GameMonkey Script](http://www.gmscript.com/) | C++ | Tracing | MIT | Comes with C bindings. Similar to Lua, multithreaded. |
 | [gluon](https://github.com/gluon-lang/gluon) | Rust | Tracing | MIT | Statically typed. Inspired by Lua, Haskell, and OCaml. Each executing gluon thread gets a separate heap. |
+| [Golog](https://github.com/mndrix/golog) | Go | Tracing (Go's GC) | MIT | Implements a subset of standard Prolog. |
 | [Go-Lua](https://github.com/Shopify/go-lua) | Go | Tracing (Go's GC) | MIT | Implements a subset of Lua 5.2. |
 | [GopherLua](https://github.com/yuin/gopher-lua) | Go | Tracing (Go's GC) | MIT | Implements Lua 5.1 with the added support for Go's channels. Lacks the debug hooks and several functions from the C version. |
 | [Gravity](https://github.com/marcobambini/gravity) | C | Tracing | MIT | A class-based concurrent scripting language with a Swift-like syntax. |
