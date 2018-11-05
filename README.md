@@ -7,7 +7,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [AbcDatalog](http://abcdatalog.seas.harvard.edu/) | Java | JVM's GC | 3-clause BSD | Implements Datalog. |
 | [AngelScript](http://www.angelcode.com/angelscript/) | C++ | Ref. counting + cycle-detecting tracing GC | zlib | A statically typed curly brace language resembling C++ itself. |
 | [Atlast](https://www.fourmilab.ch/atlast/) | C | None (manual MM) | Public domain | A dialect of Forth originally developed at Autodesk. |
-| [Anko](https://github.com/mattn/anko/) | Go | Tracing (Go's GC) | MIT | Scriptable interpreter with syntax similar to Go. |
+| [Anko](https://github.com/mattn/anko/) | Go | Go's GC | MIT | Scriptable interpreter with syntax similar to Go. |
 | [BeanShell](https://github.com/beanshell/beanshell/) | Java | JVM's GC | Apache License 2.0 | An small, embeddable Java source code interpreter. Understands Java code with version 1.1 syntax, meaning no generics or lambdas, but extends Java with, e.g., method closures. A [fork](https://github.com/pejobo/beanshell2) that supports generics is [being merged](https://github.com/beanshell/beanshell/tree/merge-fork-beanshell2). |
 | [Boron](http://urlan.sourceforge.net/boron/) | C | Tracing | LGPL 3+ | An embeddable scripting language similar to Rebol. |
 | [Cascalog](https://github.com/nathanmarz/cascalog) | Clojure | JVM's GC | Apache License 2.0 | Implements Datalog. |
@@ -27,9 +27,9 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [FTH](http://fth.sourceforge.net) | C | Tracing | 2-clause BSD | A dialect of Forth with objects, hashes, regular expressions, and other extensions. |
 | [GameMonkey Script](http://www.gmscript.com/) | C++ | Tracing | MIT | Comes with C bindings. Similar to Lua, multithreaded. |
 | [gluon](https://github.com/gluon-lang/gluon) | Rust | Tracing | MIT | Statically typed. Inspired by Lua, Haskell, and OCaml. Each executing gluon thread gets a separate heap. |
-| [Golog](https://github.com/mndrix/golog) | Go | Tracing (Go's GC) | MIT | Implements a subset of standard Prolog. |
-| [Go-Lua](https://github.com/Shopify/go-lua) | Go | Tracing (Go's GC) | MIT | Implements a subset of Lua 5.2. |
-| [GopherLua](https://github.com/yuin/gopher-lua) | Go | Tracing (Go's GC) | MIT | Implements Lua 5.1 with the added support for Go's channels. Lacks the debug hooks and several functions from the C version. |
+| [Golog](https://github.com/mndrix/golog) | Go | Go's GC | MIT | Implements a subset of standard Prolog. |
+| [Go-Lua](https://github.com/Shopify/go-lua) | Go | Go's GC | MIT | Implements a subset of Lua 5.2. |
+| [GopherLua](https://github.com/yuin/gopher-lua) | Go | Go's GC | MIT | Implements Lua 5.1 with the added support for Go's channels. Lacks the debug hooks and several functions from the C version. |
 | [Gravity](https://github.com/marcobambini/gravity) | C | Tracing | MIT | A class-based concurrent scripting language with a Swift-like syntax. |
 | [GNU Guile](https://www.gnu.org/software/guile/) | C | [Boehm](https://www.gnu.org/software/guile/manual/html_node/Conservative-GC.html) | LGPL 3+ | ["Guile mostly implements R6RS."](https://www.gnu.org/software/guile/manual/guile.html#R6RS-Support) |
 | [HashLink](https://hashlink.haxe.org/) | C | Tracing (lazy sweep) | MIT | A bytecode interpreter and a baseline JIT compiler (x86/x86\_64 only) for [Haxe](https://haxe.org/). |
@@ -54,7 +54,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [MY-BASIC](https://github.com/paladin-t/my_basic) | C | Ref. counting + cycle-detecting tracing GC | MIT | A Basic dialect with prototype-based OOP. |
 | [Neko](http://nekovm.org/) | C | Boehm | MIT | The NekoVM is a target for several compilers, including [Haxe](http://haxe.org/). |
 | [NetRexx](http://www.netrexx.org/) | Java | JVM's GC | ICU (BSD-like) | Implements Rexx. |
-| [otto](https://github.com/robertkrimen/otto) | Go | Tracing (Go's GC) | MIT | Implements ES5 with [some limitations](https://github.com/robertkrimen/otto#caveat-emptor). |
+| [otto](https://github.com/robertkrimen/otto) | Go | Go's GC | MIT | Implements ES5 with [some limitations](https://github.com/robertkrimen/otto#caveat-emptor). |
 | [Pascal Script](http://www.remobjects.com/ps.aspx) | Object Pascal | None (manual MM) | Custom non-copyleft | Statically typed. Implements "most of Object Pascal". Can't define new classes. |
 | [Pawn](http://www.compuphase.com/pawn/pawn.htm) | C | None (no heap allocation) | Apache License 2.0 with a clause to explicitly permit static linking | A curly-brace language with a small-footprint VM. Represents data as 4/8-byte "cells". Compiles to CPU-specific bytecode. [More](https://wiki.alliedmods.net/Pawn_Tutorial#Language_Paradigms). |
 | [pForth](http://www.softsynth.com/pforth/) | C | None (manual MM) | Public domain | A dialect of Forth. |
@@ -70,7 +70,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [Tcl](http://tcl-lang.org/) | C | Ref. counting | Tcl license (BSD-like) | An embeddable general-purpose scripting language with a rich C API. Has a cross-platform GUI toolkit called [Tk](https://wiki.tcl-lang.org/477). [How to embed Tcl in C applications](https://wiki.tcl-lang.org/2074). |
 | [TinyScheme](http://tinyscheme.sourceforge.net/) | C | Tracing? | 3-clause BSD | Implements a subset of R5RS. |
 | [Wren](https://github.com/munificent/wren) | C | Tracing | MIT | A small class-based performance-oriented scripting language. |
-| [zygomys](https://github.com/glycerine/zygomys) | Go | Tracing (Go's GC) | 2-clause BSD | An embedded Lisp for Go. Inspired by Clojure, but more oriented towards imperative programming. Has an infix syntax layer that looks like a subset of Go. |
+| [zygomys](https://github.com/glycerine/zygomys) | Go | Go's GC | 2-clause BSD | An embedded Lisp for Go. Inspired by Clojure, but more oriented towards imperative programming. Has an infix syntax layer that looks like a subset of Go. |
 
 # See also
 
