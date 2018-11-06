@@ -16,7 +16,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [CHICKEN Scheme](https://call-cc.org/) | C | Tracing | 3-clause BSD | Implements R5RS (with some [changes](http://wiki.call-cc.org/man/4/Supported%20language)). R7RS support is a work in progress. [Examples of embedding CHICKEN](https://wiki.call-cc.org/embedding). |
 | [Clasp](https://github.com/drmeister/clasp) | Common Lisp, C++ | MPS GC (Boehm-Weiser also supported) | LGPL 2+ | Full Common Lisp implementation well integrated with C++, using LLVM for the code generation, to integrate closely with C++ applications or libraries. |
 | [Datalog](https://github.com/c-cube/datalog) (c-cube) | OCaml | OCaml's GC | 2-clause BSD | Implements Datalog. |
-| [Datalog](https://github.com/fogfish/datalog) (fogfish) | Erlang | BEAM's GC | Apache License 2.0 | Implements Datalog. |
+| [Datalog](https://github.com/fogfish/datalog) (fogfish) | Erlang | None (no collection inside interpreter state) | Apache License 2.0 | Implements Datalog. |
 | [Datalog](http://datalog.sourceforge.net/) (MITRE Corporation) | C | Tracing (Lua's GC) | LGPL 2+ | Implements Datalog. It is implemented on top of Lua 5.3 and can be extended with Lua functions. |
 | [Duktape](http://duktape.org/) | C | Ref. counting + cycle-detecting tracing GC | MIT | Implements JavaScript E5/E5.1. |
 | [DWScript](https://bitbucket.org/egrange/dwscript/) | Object Pascal (Delphi 2009 or later) | Ref. counting + cycle-detecting tracing GC | MPL 1.1, GPL 3 (JavaScript code generator) | [Description](https://www.delphitools.info/dwscript). A statically typed Delphi/Free Pascal-like language. Can compile to JavaScript. |
