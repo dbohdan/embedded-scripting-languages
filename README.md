@@ -55,6 +55,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [MY-BASIC](https://github.com/paladin-t/my_basic) | C | Ref. counting + cycle-detecting tracing GC | MIT | A Basic dialect with prototype-based OOP. |
 | [Neko](http://nekovm.org/) | C | Boehm | MIT | The NekoVM is a target for several compilers, including [Haxe](http://haxe.org/). |
 | [NetRexx](http://www.netrexx.org/) | Java | JVM's GC | ICU (BSD-like) | Implements Rexx. |
+| [ooRexx](http://www.oorexx.org/) | C++ | Tracing | CPL | Implements Rexx extended with objects. |
 | [otto](https://github.com/robertkrimen/otto) | Go | Go's GC | MIT | Implements ES5 with [some limitations](https://github.com/robertkrimen/otto#caveat-emptor). |
 | [Pascal Script](http://www.remobjects.com/ps.aspx) | Object Pascal | None (manual MM) | Custom non-copyleft | Statically typed. Implements "most of Object Pascal". Can't define new classes. |
 | [Pawn](http://www.compuphase.com/pawn/pawn.htm) | C | None (no heap allocation) | Apache License 2.0 with a clause to explicitly permit static linking | A curly-brace language with a small-footprint VM. Represents data as 4/8-byte "cells". Compiles to CPU-specific bytecode. [More](https://wiki.alliedmods.net/Pawn_Tutorial#Language_Paradigms). |
