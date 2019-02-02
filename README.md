@@ -56,7 +56,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [MY-BASIC](https://github.com/paladin-t/my_basic) | C | Ref. counting + cycle-detecting tracing GC | MIT | A Basic dialect with prototype-based OOP. |
 | [Neko](http://nekovm.org/) | C | Boehm | MIT | The NekoVM is a target for several compilers, including [Haxe](http://haxe.org/). |
 | [NetRexx](http://www.netrexx.org/) | Java | JVM's GC | ICU (BSD-like) | Implements Rexx. |
-| [Never](https://github.com/never-lang/never) | C | Tracing | MIT | Never is a simple functional programming language. Technically it may be classified as syntactically scoped, strongly typed, call by value, functional programming language. |
+| [Never](https://github.com/never-lang/never) | C | Tracing | MIT | A statically typed functional programming language. |
 | [ooRexx](http://www.oorexx.org/) | C++ | Tracing | CPL | Implements Rexx extended with objects. |
 | [otto](https://github.com/robertkrimen/otto) | Go | Go's GC | MIT | Implements ES5 with [some limitations](https://github.com/robertkrimen/otto#caveat-emptor). |
 | [Pascal Script](http://www.remobjects.com/ps.aspx) | Object Pascal | None (manual MM) | Custom non-copyleft | Statically typed. Implements "most of Object Pascal". Can't define new classes. |
