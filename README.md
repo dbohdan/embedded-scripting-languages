@@ -85,6 +85,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 
 * [Game scripting languages benchmarked](https://github.com/r-lyeh/scriptorium).
 * [miniKanren](http://minikanren.org/#implementations) logic programming language implementations.
+* [sol](https://github.com/ThePhD/sol2) &mdash; C++ bindings for Lua.
 
 # Contributing
 
