@@ -8,7 +8,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [AngelScript](http://www.angelcode.com/angelscript/) | C++ | Ref. counting + cycle-detecting tracing GC | zlib | A statically typed curly brace language resembling C++ itself. |
 | [Atlast](https://www.fourmilab.ch/atlast/) | C | None (manual MM) | Public domain | A dialect of Forth originally developed at Autodesk. |
 | [Anko](https://github.com/mattn/anko/) | Go | Go's GC | MIT | Scriptable interpreter with syntax similar to Go. |
-| [BeanShell](https://github.com/beanshell/beanshell/) | Java | JVM's GC | Apache License 2.0 | An small, embeddable Java source code interpreter. Understands Java code with version 1.1 syntax, meaning no generics or lambdas, but extends Java with, e.g., method closures. A [fork](https://github.com/pejobo/beanshell2) that supports generics is [being merged](https://github.com/beanshell/beanshell/tree/merge-fork-beanshell2). |
+| [BeanShell](https://github.com/beanshell/beanshell/) | Java | JVM's GC | Apache License 2.0 | An small, embeddable Java source code interpreter. Understands Java code with certain extensions like method closures. |
 | [Boron](http://urlan.sourceforge.net/boron/) | C | Tracing | LGPL 3+ | An embeddable scripting language similar to Rebol. |
 | [Cascalog](https://github.com/nathanmarz/cascalog) | Clojure | JVM's GC | Apache License 2.0 | Implements Datalog. |
 | [ChaiScript](http://chaiscript.com/) | C++ | Ref. counting | 3-clause BSD | A header-only C++14 interpreter library. |
