@@ -7,6 +7,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [AbcDatalog](http://abcdatalog.seas.harvard.edu/) | Java | JVM's GC | 3-clause BSD | Implements Datalog. |
 | [AngelScript](http://www.angelcode.com/angelscript/) | C++ | Ref. counting + cycle-detecting tracing GC | zlib | A statically typed curly brace language resembling C++ itself. |
 | [Anko](https://github.com/mattn/anko/) | Go | Go's GC | MIT | Scriptable interpreter with syntax similar to Go. |
+| [ArkScript](https://github.com/SuperFola/Ark) | C++ | None (resource release is destruction + optional manual MM) | MPL 2.0 | A small functional Lisp-like programming language.  Separate bytecode compiler and VM. |
 | [Atlast](https://www.fourmilab.ch/atlast/) | C | None (manual MM) | Public domain | A dialect of Forth originally developed at Autodesk. |
 | [BeanShell](https://github.com/beanshell/beanshell/) | Java | JVM's GC | Apache License 2.0 | An small, embeddable Java source code interpreter. Understands Java code with certain extensions like method closures. |
 | [Boron](http://urlan.sourceforge.net/boron/) | C | Tracing | LGPL 3+ | An embeddable scripting language similar to Rebol. |
