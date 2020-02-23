@@ -67,6 +67,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [Neko](http://nekovm.org/) | C | Boehm | MIT | The NekoVM is a target for several compilers, including [Haxe](http://haxe.org/). |
 | [NetRexx](http://www.netrexx.org/) | Java | JVM's GC | ICU (BSD-like) | Implements Rexx. |
 | [Never](https://github.com/never-lang/never) | C | Tracing | MIT | A statically typed functional programming language. |
+| [newLISP](http://www.newlisp.org) | C | None | GPLv3 | A Lisp-like, general-purpose scripting language. |
 | [njs](https://nginx.org/en/docs/njs/) | C | None (no collection performed) | 2-clause BSD | Implements a subset of ES5.1 with some ES6 extensions. |
 | [ooRexx](http://www.oorexx.org/) | C++ | Tracing | CPL | Implements Rexx extended with objects. |
 | [otto](https://github.com/robertkrimen/otto) | Go | Go's GC | MIT | Implements ES5 with [some limitations](https://github.com/robertkrimen/otto#caveat-emptor). |
