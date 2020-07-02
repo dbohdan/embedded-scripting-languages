@@ -28,6 +28,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [Erlog](https://git-hub.com/rvirding/erlog) | Erlang | None () | Apache License 2.0 | Interprets a subset of standard Prolog. |
 | [Espruino](https://github.com/espruino/Espruino) | C | Tracing | MPL 2.0 | Implements a subset of JavaScript ES5 in a way suitable for embedded hardware with 8+ KiB RAM. |
 | [Expr](https://github.com/antonmedv/expr) | Go | Go's GC | MIT | Compiles and evaluates statically-typed expressions. |
+| [Fennel](https://fennel-lang.org/) | Lua | Lua's GC | MIT | A light clojure-flavored lisp that compiles to Lua with low overhead. |
 | [Flabbergast](https://github.com/flabbergast-config/flabbergast) | Java | JVM's GC | MIT | An object-oriented configuration language. |
 | [FTH](http://fth.sourceforge.net) | C | Tracing | 2-clause BSD | A dialect of Forth with objects, hashes, regular expressions, and other extensions. |
 | [GameMonkey Script](http://www.gmscript.com/) | C++ | Tracing | MIT | Comes with C bindings. Similar to Lua, multithreaded. |
