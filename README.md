@@ -103,6 +103,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 
 # See also
 
+* [cwal: Scripting Engine Without A Language](https://fossil.wanderinghorse.net/r/cwal/home).
 * [Game scripting languages benchmarked](https://github.com/r-lyeh/scriptorium).
 * [Languages that compile to JavaScript](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS).
 * [Languages that compile to Lua](https://github.com/hengestone/lua-languages).
