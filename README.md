@@ -102,7 +102,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [Wren](https://github.com/munificent/wren) | C | Tracing | MIT | A small class-based performance-oriented scripting language. |
 | [zygomys](https://github.com/glycerine/zygomys) | Go | Go's GC | 2-clause BSD | An embedded Lisp for Go. Inspired by Clojure, but more oriented towards imperative programming. Has an infix syntax layer that looks like a subset of Go. |
 
-# See also
+## See also
 
 * [cwal: Scripting Engine Without A Language](https://fossil.wanderinghorse.net/r/cwal/home).
 * [Game scripting languages benchmarked](https://github.com/r-lyeh/scriptorium).
@@ -111,14 +111,14 @@ The following is a list of reasonably mature open source embedded scripting lang
 * [miniKanren](http://minikanren.org/#implementations) logic programming language implementations.
 * [sol](https://github.com/ThePhD/sol2) &mdash; C++ bindings for Lua.
 
-# Contributing
+## Contributing
 
 Your contributions are welcome! Please submit a pull request or create an issue to add a new language to the list. I am looking for language implementations that are either actively maintained or largely "done". The VM and the standard library, if any, must have a free (*libre*), non-copyleft or limited-scope copyleft license (e.g., the GNU LGPL or the MPL, but not the GNU GPL). If the main bytecode compiler is a separate program, it must have a license that doesn't automatically apply to its output. Optional add-ons may have any license: from strong copyleft to proprietary. A Datalog implementation must be able to parse Datalog source code; it must not be just an EDSL.
 
-# License
+## License
 
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-# Disclosure
+## Disclosure
 
 The curator of this document maintains Picol.
