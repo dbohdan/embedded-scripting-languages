@@ -67,6 +67,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [Molt](https://github.com/wduquette/molt) | Rust | Ref. counting | 3-clause BSD | A minimal Tcl implementation for Rust applications and libraries. |
 | [Mond](https://github.com/Rohansi/Mond/) | C# | CLR's GC | MIT | A dynamically typed scripting language with generators, async, remote debugging, and a binding API. |
 | [Mono](http://www.mono-project.com/docs/advanced/embedding/scripting/) | C | Tracing | MIT and other | Implements the [CLR](https://en.wikipedia.org/wiki/Common_Language_Runtime). |
+| [MoonSharp](https://www.moonsharp.org/) | C# | CLR's GC | 3-clause BSD and other | CLR Based Lua implementation that is 99% compatible with Lua 5.2 |
 | [mruby](https://github.com/mruby/mruby) | C | Tracing | MIT | A lightweight implementation of Ruby. Has a compile-time package manager. |
 | [mruby/c](https://github.com/mrubyc/mrubyc) | C | Ref. counting | 3-clause BSD | An even smaller implementation of Ruby for microcontrollers with limited memory. |
 | [MuJS](https://mujs.com/) | C | Tracing | ISC | Implements JavaScript (ES5). Has a similar C interface to Lua.|
