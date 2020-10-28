@@ -32,6 +32,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [Flabbergast](https://github.com/flabbergast-config/flabbergast) | Java | JVM's GC | MIT | An object-oriented configuration language. |
 | [FTH](http://fth.sourceforge.net) | C | Tracing | 2-clause BSD | A dialect of Forth with objects, hashes, regular expressions, and other extensions. |
 | [GameMonkey Script](http://www.gmscript.com/) | C++ | Tracing | MIT | Comes with C bindings. Similar to Lua, multithreaded. |
+| [Gentee](https://github.com/gentee/gentee/) | Go | Go's GC | MIT | Statically typed. |
 | [gluon](https://github.com/gluon-lang/gluon) | Rust | Tracing | MIT | Statically typed. Inspired by Lua, Haskell, and OCaml. Each executing gluon thread gets a separate heap. |
 | [Goja](https://github.com/dop251/goja) | Go | Go's GC | MIT | Implements ECMAScript 5.1.  Better standard compliance and performance than otto. |
 | [Golog](https://github.com/mndrix/golog) | Go | Go's GC | MIT | Implements a subset of standard Prolog. |
