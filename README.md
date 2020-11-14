@@ -47,7 +47,7 @@ The following is a list of reasonably mature open source embedded scripting lang
 | [JerryScript](https://github.com/jerryscript-project/jerryscript) | C | Tracing | Apache License 2.0 | A full ECMAScript 5.1 interpreter written in C99 and optimized for low memory consumption. Uses CMake. |
 | [Jim Tcl](http://jim.tcl-lang.org/) | C | Tracing | 2-clause BSD | Largely compatible with Tcl 8.5 with its own additions. |
 | [Jinx](https://www.jinx-lang.org/) | C++17 | Ref. counting | MIT | Designed for use in realtime applications such as video games. |
-| [JRuby](http://jruby.org/) | Java | JVM's GC | Choice of EPL, GPL, and LGPL | An implementation of Ruby on the JVM. |
+| [JRuby](http://www.jruby.org/) | Java | JVM's GC | Choice of EPL, GPL, and LGPL | An implementation of Ruby on the JVM. |
 | [jsish](http://jsish.org/) | C | Ref. counting | MIT | A JavaScript ES 5.2+ interpreter. Internally structured after Tcl with an extensive C API. Features include subinterpreters, introspection, SQLite bindings, and a web framework with WebSocket support. The code is valid C and C++. |
 | [Jsonnet](https://jsonnet.org/) | C++ | Tracing | Apache License 2.0 | A functional configuration language that extends JSON.  Untrusted code: can't access the file system or network, can use up memory and CPU time for a DoS attack.  Has [bindings](https://jsonnet.org/ref/bindings.html) for C, C++, Go, Python, and other languages, as well as a separate native Go implementation. |
 | [JTcl](https://github.com/jtcl-project/jtcl) | Java | Ref. counting | Various BSD-like | Tcl 8.4 with some 8.5 features for the JVM. |
