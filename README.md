@@ -1,3 +1,8 @@
+# Embedded scripting languages - Definition
+An embeddable language is a language that can easily be integrated (“embedded”) into another program. However, this is not normally a property of the language, as much as it is a property of a specific language implementation. For languages where only one implementation exists, that distinction might not make a difference, but many popular languages have different implementations, some of which are easier to embed in another program, and others of which are harder.
+
+For example, a lot of computer games embed an implementation of the Python language, or an implementation of the LUA language, to use for scripting behaviors of game entities and game rules, whereas they use the low-level high-performance C++ language to fling textures and meshes and animations and sounds around the system to display a high-definition virtual world on your screen, 60 times a second
+
 # Embedded scripting languages
 
 The following is a list of reasonably mature open source embedded scripting languages to use in your application.  Stretching the definition of a scripting language, it also includes [Datalog](https://en.wikipedia.org/wiki/Datalog) implementations.
