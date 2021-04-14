@@ -128,4 +128,4 @@ Your contributions are welcome!  Please submit a pull request or create an issue
 
 ## Disclosure
 
-The curator of this document maintains Picol.
+The curator of this document maintains Picol and has contributed to Jim Tcl.
