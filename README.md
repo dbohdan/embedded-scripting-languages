@@ -55,7 +55,7 @@ The following is a list of reasonably mature open source [embedded scripting lan
 | [Jython](http://www.jython.org/) | Java | JVM's GC | PSFL (BSD-like) | An implementation of Python on the JVM. |
 | [Kawa](https://www.gnu.org/software/kawa/) | Java | JVM's GC | MIT | R7RS. Supports the javax.script API. [Evaluating Scheme expressions from Java](https://www.gnu.org/software/kawa/Evaluating-Scheme-expressions-from-Java.html). |
 | [Ketos](https://github.com/murarth/ketos) | Rust | None (no heap allocation)? | Apache License 2.0 | A functional Lisp. |
-| [LambdaChip](https://lambdachip.com) | Scheme | Tracing | GPL | Optimizing compiler and functional featured VM for embedded system. R7RS. |  
+| [LambdaChip](https://lambdachip.com) | Scheme | Tracing | GPL 3+ | Optimizing compiler and functional featured VM for embedded system. R7RS. |  
 | [Libfawk](http://repo.hu/projects/libfawk/) | C | Ref. counting | 3-clause BSD | A multi-language VM.  Includes compilers for three languages: Fawk (Awk dialect), Fbas (Basic dialect), and Fpas (Pascal dialect). |
 | [Libmawk](http://repo.hu/projects/libmawk/) | C | Ref. counting | **GPL 2** | Implements Awk.  A fork of mawk 1.3 restructured for embedding. |
 | [LIL](http://runtimeterror.com/tech/lil/) | C, Object Pascal (separate implementations) | None (no reference support) | zlib | A Tcl-like language incompatible with mainline Tcl. |
