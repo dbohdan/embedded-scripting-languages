@@ -63,7 +63,7 @@ The following is a list of reasonably mature open source [embedded scripting lan
 | [ljs](https://github.com/mingodad/ljs) | C | Tracing | MIT | Lua 5.3, Lua 5.1, and LuaJIT with a C/C++/Java/JavaScript syntax. Can convert Lua source code to ljs. |
 | [Lua](http://lua.org/) | C | Tracing | MIT | The reference implementation of what is likely the world's most popular embedded scripting language. Allows you to precompile scripts to bytecode. Versions 5.1-5.3, which are the ones used today, are not fully compatible with each other. |
 | [LuaJ](https://sourceforge.net/projects/luaj/) | Java | JVM's GC | MIT | A Lua 5.2 spec-compliant interpreter written in Java for JME and JSE. Complies Lua directly to JVM bytecode. |
-| [LuaJIT](http://luajit.org/) | C | Tracing | MIT | Fully compatible with Lua 5.1. Has a built-in C FFI library. Very fast. |
+| [LuaJIT](http://luajit.org/) | C | Tracing | MIT | Fully compatible with Lua 5.1. Has a built-in C FFI library. [Performance comparison](https://luajit.org/performance.html). |
 | [Lua-ML](https://github.com/lindig/lua-ml) | OCaml | OCaml's GC | 2-clause BSD | Embeddable Lua 2.5 reimplementation that integrates with OCaml type and module system. It's possible to extend or even replace the standard library with your own modules.|
 | [luerl](https://github.com/rvirding/luerl) | Erlang | Tracing | Apache License 2.0 | An implementation of Lua 5.2 in pure Erlang with some features like `goto` absent. |
 | [MicroPython](https://github.com/micropython/micropython) | C | Tracing | MIT | Implements the Python 3.4 syntax and some of the core datatypes. |
@@ -87,7 +87,7 @@ The following is a list of reasonably mature open source [embedded scripting lan
 | [PH7](https://github.com/symisc/PH7) | C | Ref. counting | **SPL** or proprietary | Implements a subset of PHP 5.3 with some changes like native UTF-8 support. |
 | [PicoC](https://github.com/zsaleeba/picoc) | C | None (manual MM) | 3-clause BSD | Statically typed. Interprets a subset of C. |
 | [Picol](https://chiselapp.com/user/dbohdan/repository/picol/) | C | None (no reference support) | 2-clause BSD | A header-only library interpreter for a limited dialect of Tcl. |
-| [pocketlang](https://github.com/ThakeeNathees/pocketlang) | C | Tracing | MIT | A small language syntactically similar to Ruby.  [Embedding examples](https://github.com/ThakeeNathees/pocketlang/tree/master/tests/native/). |
+| [pocketlang](https://github.com/ThakeeNathees/pocketlang) | C | Tracing | MIT | A small language syntactically similar to Ruby.  [Embedding examples](https://github.com/ThakeeNathees/pocketlang/tree/master/tests/native/).  [Performance comparison](https://github.com/ThakeeNathees/pocketlang#performance). |
 | [Python](https://www.python.org/) | C | Ref. counting + cycle-detecting tracing GC | PSFL (BSD-like) | [Embedding Python in Another Application](https://docs.python.org/3.5/extending/embedding.html). |
 | [gmqcc/qcvm](https://github.com/graphitemaster/gmqcc) | C++ | None (no dynamic memory allocation) | MIT | A QuakeC compiler and VM. |
 | [QuickJS](https://bellard.org/quickjs/) | C | Ref. counting + cycle-detecting tracing GC | MIT | A small embedded JavaScript interpreter that implements almost all of ES2019 and much of ES2020. |
@@ -109,7 +109,7 @@ The following is a list of reasonably mature open source [embedded scripting lan
 | [TinyScheme](http://tinyscheme.sourceforge.net/) | C | Tracing? | 3-clause BSD | Implements a subset of R5RS. |
 | [Umka](https://github.com/vtereshkov/umka-lang) | C | Ref. counting | 2-clause BSD | Statically typed. |
 | [Wirefilter](https://github.com/cloudflare/wirefilter) | Rust | None (no dynamic memory allocation) | An expression language for Wireshark-like filters. |
-| [Wren](https://github.com/munificent/wren) | C | Tracing | MIT | A small class-based performance-oriented scripting language. |
+| [Wren](https://github.com/munificent/wren) | C | Tracing | MIT | A small class-based performance-oriented scripting language. [Performance comparison](https://wren.io/performance.html). |
 | [zygomys](https://github.com/glycerine/zygomys) | Go | Go's GC | 2-clause BSD | An embedded Lisp for Go. Inspired by Clojure, but more oriented towards imperative programming. Has an infix syntax layer that looks like a subset of Go. |
 
 ## See also
