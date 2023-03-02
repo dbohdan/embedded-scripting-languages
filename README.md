@@ -94,6 +94,7 @@ The following is a list of reasonably mature open source [embedded scripting lan
 | [gmqcc/qcvm](https://github.com/graphitemaster/gmqcc) | C++ | None (no dynamic memory allocation) | MIT | A QuakeC compiler and VM. |
 | [QuickJS](https://bellard.org/quickjs/) | C | Ref. counting + cycle-detecting tracing GC | MIT | A small embedded JavaScript interpreter that implements almost all of ES2019 and much of ES2020. |
 | [Quirrel](https://github.com/GaijinEntertainment/quirrel) | C++ | Ref. counting | MIT | A fork of Squirrel with [new features](https://quirrel.io/doc/reference/diff_from_original.html). |
+| [Rebol](https://github.com/Oldes/Rebol3) | C | Tracing | Apache License 2.0 | Relative Expression Based Object Language |
 | [Red](https://github.com/red/red) | Rebol, Red, Red/System | Tracing | 3-clause BSD, BSL | A descendant of Rebol.  Embeddable via [libRed](https://github.com/red/docs/blob/master/en/libred.adoc).  Features a cross-platform native GUI system.  Intended to have low memory usage. |
 | [Rhai](https://github.com/jonathandturner/rhai) | Rust | None (Rust-style lifetimes) | MIT or Apache License 2.0 | An embedded scripting language for Rust inspired by ChaiScript. |
 | [Ring](https://github.com/ring-lang/ring) | C | Tracing | MIT | An embeddable applications programming language with a large standard library and GIL-less multithreading. |
