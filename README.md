@@ -6,6 +6,7 @@ The following is a list of reasonably mature open source [embedded scripting lan
 |-------------------|-------------------------|----|---------|-------|
 | [AbcDatalog](http://abcdatalog.seas.harvard.edu/) | Java | JVM's GC | 3-clause BSD | Implements Datalog. |
 | [AngelScript](http://www.angelcode.com/angelscript/) | C++ | Ref. counting + cycle-detecting tracing GC | zlib | A statically typed curly brace language resembling C++ itself. |
+| [Animula](https://gitlab.com/hardenedlinux/animula) | Scheme | Tracing | Compiler **GPL 3+** while VM is LGPL 3+ | An optimizing compiler and VM for embedded systems.  R7RS. |
 | [Anko](https://github.com/mattn/anko/) | Go | Go's GC | MIT | Scriptable interpreter with syntax similar to Go. |
 | [ArkScript](https://github.com/SuperFola/Ark) | C++ | None (resource release is destruction + optional manual MM) | MPL 2.0 | A small functional Lisp-like programming language.  Separate bytecode compiler and VM. |
 | [Atlast](https://www.fourmilab.ch/atlast/) | C | None (manual MM) | Public domain | A dialect of Forth originally developed at Autodesk. |
@@ -55,7 +56,6 @@ The following is a list of reasonably mature open source [embedded scripting lan
 | [Jython](http://www.jython.org/) | Java | JVM's GC | PSFL (BSD-like) | An implementation of Python on the JVM. |
 | [Kawa](https://www.gnu.org/software/kawa/) | Java | JVM's GC | MIT | R7RS. Supports the javax.script API. [Evaluating Scheme expressions from Java](https://www.gnu.org/software/kawa/Evaluating-Scheme-expressions-from-Java.html). |
 | [Ketos](https://github.com/murarth/ketos) | Rust | None (no heap allocation)? | Apache License 2.0 | A functional Lisp. |
-| [LambdaChip](https://lambdachip.com) | Scheme | Tracing | **GPL 3+** | An optimizing compiler and VM for embedded systems.  R7RS. |
 | [Libfawk](http://repo.hu/projects/libfawk/) | C | Ref. counting | 3-clause BSD | A multi-language VM.  Includes compilers for three languages: Fawk (Awk dialect), Fbas (Basic dialect), and Fpas (Pascal dialect). |
 | [Libmawk](http://repo.hu/projects/libmawk/) | C | Ref. counting | **GPL 2** | Implements Awk.  A fork of mawk 1.3 restructured for embedding. |
 | [LIL](http://runtimeterror.com/tech/lil/) | C, Object Pascal (separate implementations) | None (no reference support) | zlib | A Tcl-like language incompatible with mainline Tcl. |
