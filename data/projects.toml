@@ -712,12 +712,12 @@ gc = "Ref. counting"
 license = "MIT"
 notes = "A language inspired by Lua and JavaScript/Python. Has a Lua-like C++ API. Differentiates itself from Lua with the use of reference counting in place of Lua's tracing GC, a curly-brace syntax, built-in class-based OOP, and zero-indexed arrays."
 
-[Starlark]
+["Starlark (Go)"]
 url = "https://github.com/google/starlark-go/"
 impl_lang = "Go"
 gc = "Go's GC"
 license = "3-clause BSD"
-notes = "A small dialect of Python for configuration. Not Turing-complete. Untrusted code: can't access the file system and network, can use up memory and CPU to perform a DoS attack. [Spec](https://github.com/bazelbuild/starlark)."
+notes = "A small dialect of Python for configuration. Not Turing-complete. Untrusted code: can't access the file system and network, can use up memory and CPU to perform a DoS attack. [Spec](https://github.com/bazelbuild/starlark). [Python bindings](https://github.com/caketop/python-starlark-go)."
 
 ["Starlark (starlark)"]
 url = "https://github.com/bazelbuild/bazel/tree/master/src/main/java/net/starlark/java"
