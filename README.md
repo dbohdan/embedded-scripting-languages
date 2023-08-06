@@ -110,7 +110,7 @@ The following is a list of reasonably mature open source [embedded scripting lan
 | [Starlark](https://github.com/bazelbuild/bazel/tree/master/src/main/java/net/starlark/java) (Java) | Java | JVM's GC | Apache License 2.0 | Starlark for the JVM.  The original implementation. |
 | [Starlark](https://github.com/google/starlark-rust/) (Rust) | Rust | ? | Apache License 2.0 | Starlark in Rust. |
 | [Tcl](http://tcl-lang.org/) | C | Ref. counting | Tcl license (BSD-like) | An embeddable general-purpose scripting language with a rich C API. Has a cross-platform GUI toolkit called [Tk](https://wiki.tcl-lang.org/477). [How to embed Tcl in C applications](https://wiki.tcl-lang.org/2074). |
-| [tcc](https://repo.or.cz/tinycc.git/) | C | None | LGPL 2 | A small C compiler that can be used as a library for a C JIT compiler. [libtcc header](https://repo.or.cz/tinycc.git/blob/HEAD:/libtcc.h). [Embedding example](https://repo.or.cz/tinycc.git/blob/HEAD:/tests/libtcc_test.c). |
+| [tcc](https://repo.or.cz/tinycc.git/) | C | None | LGPL 2 | A small C compiler that can be used as a library for a C JIT. [libtcc header](https://repo.or.cz/tinycc.git/blob/HEAD:/libtcc.h). [Embedding example](https://repo.or.cz/tinycc.git/blob/HEAD:/tests/libtcc_test.c). |
 | [TinyScheme](http://tinyscheme.sourceforge.net/) | C | Tracing? | 3-clause BSD | Implements a subset of R5RS. |
 | [Umka](https://github.com/vtereshkov/umka-lang) | C | Ref. counting | 2-clause BSD | Statically typed. |
 | [Wirefilter](https://github.com/cloudflare/wirefilter) | Rust | None (no dynamic memory allocation) | MIT | An expression language for Wireshark-like filters. |
