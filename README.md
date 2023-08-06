@@ -129,7 +129,7 @@ The following is a list of reasonably mature open source [embedded scripting lan
 
 ## Contributing
 
-Your contributions are welcome!  Please submit a pull request or create an issue to add a new language to the list.  I am looking for language implementations that are either actively maintained or largely "done".  The VM, bytecode compiler, and standard library (if any) must have a free (*libre*) license.  They may have optional add-ons with any license.  A Datalog implementation must be able to parse Datalog source code; it must not be just an [EDSL](https://en.wikipedia.org/wiki/Domain-specific_language#External_and_Embedded_Domain_Specific_Languages).
+Your contributions are welcome! See [CONTRIBUTING](CONTRIBUTING.md).
 
 ## License
 
