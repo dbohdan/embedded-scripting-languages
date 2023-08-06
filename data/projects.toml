@@ -17,7 +17,7 @@ url = "https://gitlab.com/hardenedlinux/animula"
 impl_lang = "Scheme"
 gc = "Tracing"
 license = "Compiler **GPL 3+** while VM is LGPL 3+"
-notes = "An optimizing compiler and VM for embedded systems.  R7RS."
+notes = "An optimizing compiler and VM for embedded systems. R7RS."
 
 [Anko]
 url = "https://github.com/mattn/anko/"
@@ -31,7 +31,7 @@ url = "https://github.com/SuperFola/Ark"
 impl_lang = "C++"
 gc = "None (resource release is destruction + optional manual MM)"
 license = "MPL 2.0"
-notes = "A small functional Lisp-like programming language.  Separate bytecode compiler and VM."
+notes = "A small functional Lisp-like programming language. Separate bytecode compiler and VM."
 
 [Atlast]
 url = "https://www.fourmilab.ch/atlast/"
@@ -129,7 +129,7 @@ url = "https://dhall-lang.org/"
 impl_lang = "Haskell"
 gc = "Haskell's GC"
 license = "3-clause BSD"
-notes = "A statically-typed functional configuration language.  Not Turing-complete.  Untrusted code: can't access the file system, can fetch Dhall libraries over HTTP(S) from static URLs (but libraries aren't allowed to access your data), can use up memory and CPU time for a DoS attack.  Has a work-in-progress Clojure and Ruby implementation."
+notes = "A statically-typed functional configuration language. Not Turing-complete. Untrusted code: can't access the file system, can fetch Dhall libraries over HTTP(S) from static URLs (but libraries aren't allowed to access your data), can use up memory and CPU time for a DoS attack. Has a work-in-progress Clojure and Ruby implementation."
 
 [Duktape]
 url = "http://duktape.org/"
@@ -227,7 +227,7 @@ url = "https://github.com/dop251/goja"
 impl_lang = "Go"
 gc = "Go's GC"
 license = "MIT"
-notes = "Implements ECMAScript 5.1.  Better standard compliance and performance than otto."
+notes = "Implements ECMAScript 5.1. Better standard compliance and performance than otto."
 
 [Golog]
 url = "https://github.com/mndrix/golog"
@@ -339,7 +339,7 @@ url = "https://jsonnet.org/"
 impl_lang = "C++"
 gc = "Tracing"
 license = "Apache License 2.0"
-notes = "A functional configuration language that extends JSON.  Untrusted code: can't access the file system or network, can use up memory and CPU time for a DoS attack.  Has [bindings](https://jsonnet.org/ref/bindings.html) for C, C++, Go, Python, and other languages, as well as a separate native Go implementation."
+notes = "A functional configuration language that extends JSON. Untrusted code: can't access the file system or network, can use up memory and CPU time for a DoS attack. Has [bindings](https://jsonnet.org/ref/bindings.html) for C, C++, Go, Python, and other languages, as well as a separate native Go implementation."
 
 [JTcl]
 url = "https://github.com/jtcl-project/jtcl"
@@ -374,14 +374,14 @@ url = "http://repo.hu/projects/libfawk/"
 impl_lang = "C"
 gc = "Ref. counting"
 license = "3-clause BSD"
-notes = "A multi-language VM.  Includes compilers for three languages: Fawk (Awk dialect), Fbas (Basic dialect), and Fpas (Pascal dialect)."
+notes = "A multi-language VM. Includes compilers for three languages: Fawk (Awk dialect), Fbas (Basic dialect), and Fpas (Pascal dialect)."
 
 [Libmawk]
 url = "http://repo.hu/projects/libmawk/"
 impl_lang = "C"
 gc = "Ref. counting"
 license = "**GPL 2**"
-notes = "Implements Awk.  A fork of mawk 1.3 restructured for embedding."
+notes = "Implements Awk. A fork of mawk 1.3 restructured for embedding."
 
 [LIL]
 url = "http://runtimeterror.com/tech/lil/"
@@ -605,7 +605,7 @@ url = "https://github.com/ThakeeNathees/pocketlang"
 impl_lang = "C"
 gc = "Tracing"
 license = "MIT"
-notes = "A small language syntactically similar to Ruby.  [Embedding examples](https://github.com/ThakeeNathees/pocketlang/tree/master/tests/native/).  [Performance comparison](https://github.com/ThakeeNathees/pocketlang#performance)."
+notes = "A small language syntactically similar to Ruby. [Embedding examples](https://github.com/ThakeeNathees/pocketlang/tree/master/tests/native/). [Performance comparison](https://github.com/ThakeeNathees/pocketlang#performance)."
 
 [Python]
 url = "https://www.python.org/"
@@ -647,7 +647,7 @@ url = "https://github.com/red/red"
 impl_lang = "Rebol, Red, Red/System"
 gc = "Tracing"
 license = "3-clause BSD, BSL"
-notes = "A descendant of Rebol.  Embeddable via [libRed](https://github.com/red/docs/blob/master/en/libred.adoc).  Features a cross-platform native GUI system.  Intended to have low memory usage."
+notes = "A descendant of Rebol. Embeddable via [libRed](https://github.com/red/docs/blob/master/en/libred.adoc). Features a cross-platform native GUI system. Intended to have low memory usage."
 
 [Rhai]
 url = "https://github.com/jonathandturner/rhai"
@@ -717,14 +717,14 @@ url = "https://github.com/google/starlark-go/"
 impl_lang = "Go"
 gc = "Go's GC"
 license = "3-clause BSD"
-notes = "A small dialect of Python for configuration.  Not Turing-complete.  Untrusted code: can't access the file system and network, can use up memory and CPU to perform a DoS attack.  [Spec](https://github.com/bazelbuild/starlark)."
+notes = "A small dialect of Python for configuration. Not Turing-complete. Untrusted code: can't access the file system and network, can use up memory and CPU to perform a DoS attack. [Spec](https://github.com/bazelbuild/starlark)."
 
 ["Starlark (starlark)"]
 url = "https://github.com/bazelbuild/bazel/tree/master/src/main/java/net/starlark/java"
 impl_lang = "Java"
 gc = "JVM's GC"
 license = "Apache License 2.0"
-notes = "Starlark for the JVM.  The original implementation."
+notes = "Starlark for the JVM. The original implementation."
 
 ["Starlark (starlark-rust)"]
 url = "https://github.com/google/starlark-rust/"
