@@ -726,12 +726,12 @@ gc = "JVM's GC"
 license = "Apache License 2.0"
 notes = "Starlark for the JVM. The original implementation."
 
-["Starlark (starlark-rust)"]
+["Starlark (Rust)"]
 url = "https://github.com/google/starlark-rust/"
 impl_lang = "Rust"
 gc = "?"
 license = "Apache License 2.0"
-notes = "Starlark in Rust."
+notes = "Starlark in Rust. [Python bindings](https://github.com/inducer/starlark-pyo3)."
 
 [Tcl]
 url = "http://tcl-lang.org/"
