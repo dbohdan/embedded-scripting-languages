@@ -1,5 +1,6 @@
 #! /usr/bin/env -S deno run --allow-read --check
 
+import markdownTOC from "npm:markdown-toc@1";
 import nunjucks from "npm:nunjucks@3";
 import TOML from "npm:@iarna/toml@3";
 
@@ -36,15 +37,22 @@ try {
   const template = (await Deno.readTextFile(templatePath)).trim();
   const data = TOML.parse(await Deno.readTextFile(dataPath));
 
+  const tocToken = `%TOC-${Math.random()}%`;
   const env = new nunjucks.configure({
     lstripBlocks: true,
     trimBlocks: true,
-  });
+  }).addGlobal("toc", tocToken);
   const doc = env.renderString(template, {
     projects: projList(<IProjects> data),
   });
 
-  console.log(doc);
+  const headingFilter = (str: string) => !str.match(/Contents/);
+  const toc = markdownTOC(doc, {
+    filter: headingFilter,
+  }).content;
+  const docWithTOC = doc.replace(tocToken, toc);
+
+  console.log(docWithTOC);
 } catch (err) {
   console.error(err);
 }
