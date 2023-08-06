@@ -1,0 +1,3 @@
+Makefile linguist-vendored
+*.md.template linguist-vendored
+render-template.ts linguist-vendored
