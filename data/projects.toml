@@ -719,7 +719,7 @@ gc = "Go's GC"
 license = "3-clause BSD"
 notes = "A small dialect of Python for configuration. Not Turing-complete. Untrusted code: can't access the file system and network, can use up memory and CPU to perform a DoS attack. [Spec](https://github.com/bazelbuild/starlark). [Python bindings](https://github.com/caketop/python-starlark-go)."
 
-["Starlark (starlark)"]
+["Starlark (Java)"]
 url = "https://github.com/bazelbuild/bazel/tree/master/src/main/java/net/starlark/java"
 impl_lang = "Java"
 gc = "JVM's GC"
