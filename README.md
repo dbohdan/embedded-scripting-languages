@@ -38,7 +38,6 @@ The following is a list of reasonably mature open source [embedded scripting lan
 | Datalog | [Datalog (fogfish)](https://github.com/fogfish/datalog) | Erlang | None (no collection inside interpreter state) | Apache License 2.0 | Implements Datalog. |
 | Datalog | [Datalog (MITRE Corporation)](http://datalog.sourceforge.net/) | C | Tracing (Lua&#39;s GC) | LGPL 2+ | Implements Datalog. It is implemented on top of Lua 5.3 and can be extended with Lua functions. |
 | Dhall | [Dhall](https://dhall-lang.org/) | Haskell | Haskell&#39;s GC | 3-clause BSD | A statically-typed functional configuration language. Not Turing-complete. Untrusted code: can't access the file system, can fetch Dhall libraries over HTTP(S) from static URLs (but libraries aren't allowed to access your data), can use up memory and CPU time for a DoS attack. Has a work-in-progress Clojure and Ruby implementation. |
-| Duktape | [Duktape](http://duktape.org/) | C | Ref. counting + cycle-detecting tracing GC | MIT | Implements JavaScript E5/E5.1. |
 | DWScript | [DWScript](https://bitbucket.org/egrange/dwscript/) | Object Pascal (Delphi 2009 or later) | Ref. counting + cycle-detecting tracing GC | MPL 1.1, GPL 3 (JavaScript code generator) | [Description](https://www.delphitools.info/dwscript). A statically typed Delphi/Free Pascal-like language. Can compile to JavaScript. |
 | Dyon | [Dyon](https://github.com/pistondevelopers/dyon) | Rust | None (Rust-style [lifetimes](http://www.piston.rs/dyon-tutorial/lifetimes.html)) | Apache License 2.0 or MIT | Has optional, optimistic (succeed-by-default) static type checking. |
 | Expr | [Expr](https://github.com/antonmedv/expr) | Go | Go&#39;s GC | MIT | Compiles and evaluates statically-typed expressions. |
@@ -56,6 +55,7 @@ The following is a list of reasonably mature open source [embedded scripting lan
 | Io | [Io](https://github.com/stevedekorte/io) | C | Tracing | 3-clause BSD | A prototype-based OO language. |
 | Janet | [Janet](https://janet-lang.org/) | C | Tracing | MIT | A functional and imperative language with a Lisp syntax. |
 | Java | [BeanShell](https://github.com/beanshell/beanshell/) | Java | JVM&#39;s GC | Apache License 2.0 | An small, embeddable Java source code interpreter. Understands Java code with certain extensions like method closures. |
+| JavaScript | [Duktape](http://duktape.org/) | C | Ref. counting + cycle-detecting tracing GC | MIT | Implements JavaScript E5/E5.1. |
 | JavaScript | [Espruino](https://github.com/espruino/Espruino) | C | Tracing | MPL 2.0 | Implements a subset of JavaScript ES5 in a way suitable for embedded hardware with 8+ KiB RAM. |
 | JavaScript | [Goja](https://github.com/dop251/goja) | Go | Go&#39;s GC | MIT | Implements ECMAScript 5.1. Better standard compliance and performance than otto. |
 | JavaScript | [JerryScript](https://github.com/jerryscript-project/jerryscript) | C | Tracing | Apache License 2.0 | A full ECMAScript 5.1 interpreter written in C99 and optimized for low memory consumption. Uses CMake. |
@@ -141,7 +141,7 @@ The following is a list of reasonably mature open source [embedded scripting lan
 | C | [Chibi Scheme](https://github.com/ashinn/chibi-scheme) | Scheme | Tracing | 3-clause BSD | Implements R7RS small. |
 | C | [CHICKEN Scheme](https://call-cc.org/) | Scheme | Tracing | 3-clause BSD | Implements R5RS (with some [changes](http://wiki.call-cc.org/man/4/Supported%20language)). R7RS support is a work in progress. [Examples of embedding CHICKEN](https://wiki.call-cc.org/embedding). |
 | C | [Datalog (MITRE Corporation)](http://datalog.sourceforge.net/) | Datalog | Tracing (Lua&#39;s GC) | LGPL 2+ | Implements Datalog. It is implemented on top of Lua 5.3 and can be extended with Lua functions. |
-| C | [Duktape](http://duktape.org/) | Duktape | Ref. counting + cycle-detecting tracing GC | MIT | Implements JavaScript E5/E5.1. |
+| C | [Duktape](http://duktape.org/) | JavaScript | Ref. counting + cycle-detecting tracing GC | MIT | Implements JavaScript E5/E5.1. |
 | C | [Espruino](https://github.com/espruino/Espruino) | JavaScript | Tracing | MPL 2.0 | Implements a subset of JavaScript ES5 in a way suitable for embedded hardware with 8+ KiB RAM. |
 | C | [FTH](http://fth.sourceforge.net) | Forth | Tracing | 2-clause BSD | A dialect of Forth with objects, hashes, regular expressions, and other extensions. |
 | C | [Gravity](https://github.com/marcobambini/gravity) | Gravity | Tracing | MIT | A class-based concurrent scripting language with a Swift-like syntax. |

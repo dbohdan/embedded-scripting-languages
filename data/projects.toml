@@ -152,7 +152,7 @@ notes = "A statically-typed functional configuration language. Not Turing-comple
 
 [Duktape]
 url = "http://duktape.org/"
-lang = "Duktape"
+lang = "JavaScript"
 impl_in = "C"
 gc = "Ref. counting + cycle-detecting tracing GC"
 license = "MIT"
