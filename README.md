@@ -18,7 +18,7 @@ The following is a list of reasonably mature open source [embedded scripting lan
 |-------------------|-------------------------|----|---------|-------|
 | [AbcDatalog](http://abcdatalog.seas.harvard.edu/) | Java | JVM&#39;s GC | 3-clause BSD | Implements Datalog. |
 | [AngelScript](http://www.angelcode.com/angelscript/) | C++ | Ref. counting + cycle-detecting tracing GC | zlib | A statically typed curly brace language resembling C++ itself. |
-| [Animula](https://gitlab.com/hardenedlinux/animula) | Scheme | Tracing | Compiler **GPL 3+** while VM is LGPL 3+ | An optimizing compiler and VM for embedded systems. R7RS. |
+| [Animula](https://gitlab.com/hardenedlinux/animula) | C | Tracing | Compiler **GPL 3+** while VM is LGPL 3+ | An optimizing compiler and VM for embedded systems. R7RS. |
 | [Anko](https://github.com/mattn/anko/) | Go | Go&#39;s GC | MIT | Scriptable interpreter with syntax similar to Go. |
 | [ArkScript](https://github.com/SuperFola/Ark) | C++ | None (resource release is destruction + optional manual MM) | MPL 2.0 | A small functional Lisp-like programming language. Separate bytecode compiler and VM. |
 | [Atlast](https://www.fourmilab.ch/atlast/) | C | None (manual MM) | Public domain | A dialect of Forth originally developed at Autodesk. |
@@ -91,7 +91,7 @@ The following is a list of reasonably mature open source [embedded scripting lan
 | [MuJS](https://mujs.com/) | C | Tracing | ISC | Implements JavaScript (ES5). Has a similar C interface to Lua. |
 | [MY-BASIC](https://github.com/paladin-t/my_basic) | C | Ref. counting + cycle-detecting tracing GC | MIT | A Basic dialect with prototype-based OOP. |
 | [Neko](http://nekovm.org/) | C | Boehm | MIT | The NekoVM is a target for several compilers, including [Haxe](http://haxe.org/). |
-| [NetRexx](http://www.netrexx.org/) | Java | JVM&#39;s GC | ICU (BSD-like) | Implements Rexx. |
+| [NetRexx](http://www.netrexx.org/) | Java | JVM&#39;s GC | ICU (BSD-like) |  |
 | [Never](https://github.com/never-lang/never) | C | Tracing | MIT | A statically typed functional programming language. |
 | [njs](https://nginx.org/en/docs/njs/) | C | None (no collection performed) | 2-clause BSD | Implements a subset of ES5.1 with some ES6 extensions. |
 | [ooRexx](http://www.oorexx.org/) | C++ | Tracing | CPL | Implements Rexx extended with objects. |
@@ -134,6 +134,7 @@ The following is a list of reasonably mature open source [embedded scripting lan
 | Implementation language | Project name/link | GC | License | Notes |
 |-------------------------|-------------------|----|---------|-------|
 | Ada | [HAC](https://hacadacompiler.sourceforge.io/) | None (stack only) | MIT | HAC implements a subset of the Ada language. Thus, it can share sources with the embedding application. |
+| C | [Animula](https://gitlab.com/hardenedlinux/animula) | Tracing | Compiler **GPL 3+** while VM is LGPL 3+ | An optimizing compiler and VM for embedded systems. R7RS. |
 | C | [Atlast](https://www.fourmilab.ch/atlast/) | None (manual MM) | Public domain | A dialect of Forth originally developed at Autodesk. |
 | C | [Boron](http://urlan.sourceforge.net/boron/) | Tracing | LGPL 3+ | An embeddable scripting language similar to Rebol. |
 | C | [CircuitPython](https://github.com/adafruit/circuitpython) | Tracing | MIT | A fork of MicroPython, designed for API uniformity across many microcontrollers. |
@@ -230,7 +231,7 @@ The following is a list of reasonably mature open source [embedded scripting lan
 | Java | [Jython](http://www.jython.org/) | JVM&#39;s GC | PSFL (BSD-like) | An implementation of Python on the JVM. |
 | Java | [Kawa](https://www.gnu.org/software/kawa/) | JVM&#39;s GC | MIT | R7RS. Supports the javax.script API. [Evaluating Scheme expressions from Java](https://www.gnu.org/software/kawa/Evaluating-Scheme-expressions-from-Java.html). |
 | Java | [LuaJ](https://sourceforge.net/projects/luaj/) | JVM&#39;s GC | MIT | A Lua 5.2 spec-compliant interpreter written in Java for JME and JSE. Complies Lua directly to JVM bytecode. |
-| Java | [NetRexx](http://www.netrexx.org/) | JVM&#39;s GC | ICU (BSD-like) | Implements Rexx. |
+| Java | [NetRexx](http://www.netrexx.org/) | JVM&#39;s GC | ICU (BSD-like) |  |
 | Java | [Starlark (Java)](https://github.com/bazelbuild/bazel/tree/master/src/main/java/net/starlark/java) | JVM&#39;s GC | Apache License 2.0 | Starlark for the JVM. The original implementation. |
 | Object Pascal | [Pascal Script](http://www.remobjects.com/ps.aspx) | None (manual MM) | modified zlib/libpng-License with mandatory attribution | Statically typed. Implements "most of Object Pascal". Can't define new classes. |
 | Object Pascal (Delphi 2009 or later) | [DWScript](https://bitbucket.org/egrange/dwscript/) | Ref. counting + cycle-detecting tracing GC | MPL 1.1, GPL 3 (JavaScript code generator) | [Description](https://www.delphitools.info/dwscript). A statically typed Delphi/Free Pascal-like language. Can compile to JavaScript. |
@@ -244,7 +245,6 @@ The following is a list of reasonably mature open source [embedded scripting lan
 | Rust | [Rhai](https://github.com/jonathandturner/rhai) | None (Rust-style lifetimes) | MIT or Apache License 2.0 | An embedded scripting language for Rust inspired by ChaiScript. |
 | Rust | [Starlark (Rust)](https://github.com/google/starlark-rust/) | ? | Apache License 2.0 | Starlark in Rust. [Python bindings](https://github.com/inducer/starlark-pyo3). |
 | Rust | [Wirefilter](https://github.com/cloudflare/wirefilter) | None (no dynamic memory allocation) | MIT | An expression language for Wireshark-like filters. |
-| Scheme | [Animula](https://gitlab.com/hardenedlinux/animula) | Tracing | Compiler **GPL 3+** while VM is LGPL 3+ | An optimizing compiler and VM for embedded systems. R7RS. |
 
 ## See also
 
