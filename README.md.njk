@@ -6,20 +6,20 @@ The following is a list of reasonably mature open source [embedded scripting lan
 
 {{ toc }}
 
-## Sorted alphabetically
+## Sorted by interpreted language
 
-| Project name/link | Implementation language | GC | License | Notes |
-|-------------------|-------------------------|----|---------|-------|
-{% for proj in projects | sort(false, false, "sort_key") %}
-| [{{ proj.name }}]({{ proj.url }}) | {{ proj.impl_lang }} | {{ proj.gc }} | {{ proj.license }} | {{ proj.notes | safe }} |
+| Language | Project name/link | Implementated in | GC | License | Notes |
+|----------|-------------------|------------------|----|---------|-------|
+{% for proj in projects | sort(false, false, "lang") %}
+| {{ proj.lang }} | [{{ proj.name }}]({{ proj.url }}) | {{ proj.impl_in }} | {{ proj.gc }} | {{ proj.license }} | {{ proj.notes | safe }} |
 {% endfor %}
 
 ## Sorted by implementation language
 
-| Implementation language | Project name/link | GC | License | Notes |
-|-------------------------|-------------------|----|---------|-------|
-{% for proj in projects | sort(false, false, "impl_lang") %}
-| {{ proj.impl_lang }} | [{{ proj.name }}]({{ proj.url }}) | {{ proj.gc }} | {{ proj.license }} | {{ proj.notes | safe }} |
+| Implementated in | Project name/link | Language | GC | License | Notes |
+|------------------|-------------------|----------|----|---------|-------|
+{% for proj in projects | sort(false, false, "impl_in") %}
+| {{ proj.impl_in }} | [{{ proj.name }}]({{ proj.url }}) | {{ proj.lang }} | {{ proj.gc }} | {{ proj.license }} | {{ proj.notes | safe }} |
 {% endfor %}
 
 ## See also
