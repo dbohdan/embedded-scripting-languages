@@ -12,7 +12,6 @@ const [templatePath, dataPath] = Deno.args;
 
 interface INamedProject {
   name: string;
-  sort_key: string;
   [key: string]: string;
 }
 
@@ -22,14 +21,11 @@ interface IProjects {
   };
 }
 
-const sortKey = (s: string): string => (s.match(/[A-Za-z0-9]/g) || []).join("");
-
 const projList = (projects: IProjects): INamedProject[] =>
   Object.entries(projects)
     .map(([name, info]) =>
       Object.assign({
         name,
-        sort_key: sortKey(name),
       }, info)
     );
 
