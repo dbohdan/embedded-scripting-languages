@@ -1,4 +1,4 @@
-name: Rebuild README.md
+name: Rebuild
 
 on: [push]
 
