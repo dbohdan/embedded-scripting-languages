@@ -1,3 +1,4 @@
+_includes/* linguist-vendored
 Makefile linguist-vendored
 *.njk linguist-vendored
 render-template.ts linguist-vendored

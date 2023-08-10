@@ -1,25 +1,19 @@
 # Embedded scripting languages
 
-The following is a list of reasonably mature open source [embedded scripting languages](https://en.wikipedia.org/wiki/Scripting_language) to use in your application.  Stretching the definition of a scripting language, it also includes [Datalog](https://en.wikipedia.org/wiki/Datalog) implementations.  Items with a strong copyleft license (like the GNU GPL) that will apply to the rest of your code are **highlighted** as a warning.
+The following is a list of reasonably mature open source [embedded scripting languages](https://en.wikipedia.org/wiki/Scripting_language) to use in your application. Stretching the definition of a scripting language, it also includes [Datalog](https://en.wikipedia.org/wiki/Datalog) implementations. Items with a strong copyleft license (like the GNU GPL) that will apply to the rest of your code are **emphasized** as a warning.
+
+To sort and filter the list interactively, visit the [webpage](https://dbohdan.github.io/embedded-scripting-languages/). To contribute, go to the [GitHub project](https://github.com/dbohdan/embedded-scripting-languages).
 
 ## Contents
 
 {{ toc }}
 
-## Sorted by interpreted language
+## List
 
 | Language | Project name/link | Implementated in | GC | License | Notes |
 |----------|-------------------|------------------|----|---------|-------|
 {% for proj in projects | sort(false, false, "lang") %}
 | {{ proj.lang }} | [{{ proj.name }}]({{ proj.url }}) | {{ proj.impl_in }} | {{ proj.gc }} | {{ proj.license }} | {{ proj.notes | safe }} |
-{% endfor %}
-
-## Sorted by implementation language
-
-| Implementated in | Project name/link | Language | GC | License | Notes |
-|------------------|-------------------|----------|----|---------|-------|
-{% for proj in projects | sort(false, false, "impl_in") %}
-| {{ proj.impl_in }} | [{{ proj.name }}]({{ proj.url }}) | {{ proj.lang }} | {{ proj.gc }} | {{ proj.license }} | {{ proj.notes | safe }} |
 {% endfor %}
 
 ## See also
