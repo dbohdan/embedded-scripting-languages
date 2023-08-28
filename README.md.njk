@@ -1,6 +1,6 @@
 # Embedded scripting languages
 
-The following is a list of reasonably mature open source [embedded scripting languages](https://en.wikipedia.org/wiki/Scripting_language) to use in your application. Stretching the definition of a scripting language, it also includes [Datalog](https://en.wikipedia.org/wiki/Datalog) implementations. Items with a strong copyleft license (like the GNU GPL) that will apply to the rest of your code are **emphasized** as a warning.
+The following is a list of reasonably mature or actively developed open source [embedded scripting languages](https://en.wikipedia.org/wiki/Scripting_language) to use in your application. Stretching the definition of a scripting language, it also includes [Datalog](https://en.wikipedia.org/wiki/Datalog) implementations. Items with a strong copyleft license (like the GNU GPL) that will apply to the rest of your code are **emphasized** as a warning.
 
 To sort and filter the list interactively, visit the [webpage](https://dbohdan.github.io/embedded-scripting-languages/). To contribute, go to the [GitHub project](https://github.com/dbohdan/embedded-scripting-languages).
 
