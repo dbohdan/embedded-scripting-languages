@@ -110,6 +110,14 @@ gc = "MPS GC (Boehm-Weiser also supported)"
 license = "LGPL 2+"
 notes = "Full Common Lisp implementation well integrated with C++, using LLVM for the code generation, to integrate closely with C++ applications or libraries."
 
+["Common Expression Language"]
+url = "https://github.com/google/cel-spec"
+lang = "Common Expression Language (CEL)"
+impl_in = "Go"
+gc = "Go's GC"
+license = "Apache License 2.0"
+notes = "A non-Turing-complete expression language for Go."
+
 [daScript]
 url = "https://dascript.org/"
 lang = "daScript"
