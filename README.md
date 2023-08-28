@@ -130,6 +130,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | Tcl | [Molt](https://github.com/wduquette/molt) | Rust | Ref. counting | 3-clause BSD | A minimal Tcl implementation for Rust applications and libraries. |
 | Tcl | [Picol](https://chiselapp.com/user/dbohdan/repository/picol/) | C | None (no reference support) | 2-clause BSD | A header-only library interpreter for a limited dialect of Tcl. |
 | Tcl | [Tcl](http://tcl-lang.org/) | C | Ref. counting | Tcl license (BSD-like) | An embeddable general-purpose scripting language with a rich C API. Has a cross-platform GUI toolkit called [Tk](https://wiki.tcl-lang.org/477). [How to embed Tcl in C applications](https://wiki.tcl-lang.org/2074). |
+| Toy | [Toy](https://github.com/Ratstail91/Toy) | C | Ref. counting | zlib | Has an optional type system. [Embedding Toy](https://toylang.com/deep-dive/embedding-toy). |
 | Umka | [Umka](https://github.com/vtereshkov/umka-lang) | C | Ref. counting | 2-clause BSD | Statically typed. |
 | Wirefilter | [Wirefilter](https://github.com/cloudflare/wirefilter) | Rust | None (no dynamic memory allocation) | MIT | An expression language for Wireshark-like filters. |
 | Wren | [Wren](https://github.com/munificent/wren) | C | Tracing | MIT | A small class-based performance-oriented scripting language. [Performance comparison](https://wren.io/performance.html). |

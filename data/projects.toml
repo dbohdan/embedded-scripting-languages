@@ -896,6 +896,14 @@ gc = "Tracing?"
 license = "3-clause BSD"
 notes = "Implements a subset of R5RS."
 
+[Toy]
+url = "https://github.com/Ratstail91/Toy"
+lang = "Toy"
+impl_in = "C"
+gc = "Ref. counting"
+license = "zlib"
+notes = "Has an optional type system. [Embedding Toy](https://toylang.com/deep-dive/embedding-toy)."
+
 [TruffleRuby]
 url = "https://github.com/oracle/truffleruby"
 lang = "Ruby"
