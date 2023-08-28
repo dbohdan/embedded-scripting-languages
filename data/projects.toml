@@ -38,6 +38,14 @@ gc = "None (resource release is destruction + optional manual MM)"
 license = "MPL 2.0"
 notes = "A small functional Lisp-like programming language. Separate bytecode compiler and VM."
 
+[Asp]
+url = "https://www.asplang.org/"
+lang = "Asp"
+impl_in = "C"
+gc = "Ref. counting inside a static memory area"
+license = "Public domain"
+notes = "Python-like. Targets embedded systems. Allows blocking calls in scripts without blocking the application. Runs compiled bytecode. Not related to Microsoft's Active Server Pages."
+
 [Atlast]
 url = "https://www.fourmilab.ch/atlast/"
 lang = "Forth"
