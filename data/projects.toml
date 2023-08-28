@@ -430,7 +430,7 @@ lang = "Python"
 impl_in = "Java"
 gc = "JVM's GC"
 license = "PSFL (BSD-like)"
-notes = "An implementation of Python on the JVM."
+notes = "An implementation of Python 2 for the JVM."
 
 [Kawa]
 url = "https://www.gnu.org/software/kawa/"
