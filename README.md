@@ -30,6 +30,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | C#, other CLR languages | [Mono](http://www.mono-project.com/docs/advanced/embedding/scripting/) | C | Tracing | MIT and other | Implements the [CLR](https://en.wikipedia.org/wiki/Common_Language_Runtime). |
 | ChaiScript | [ChaiScript](http://chaiscript.com/) | C++ | Ref. counting | 3-clause BSD | A header-only C++14 interpreter library. |
 | Clojure | [sci](https://github.com/borkdude/sci) | Clojure | host VM&#39;s GC | EPL | An interpreter for a subset of Clojure for Clojure and ClojureScript. |
+| Common Expression Language (CEL) | [Common Expression Language](https://github.com/google/cel-spec) | Go | Go&#39;s GC | Apache License 2.0 | A non-Turing-complete expression language for Go. |
 | Common Lisp | [Clasp](https://github.com/drmeister/clasp) | Common Lisp, C++ | MPS GC (Boehm-Weiser also supported) | LGPL 2+ | Full Common Lisp implementation well integrated with C++, using LLVM for the code generation, to integrate closely with C++ applications or libraries. |
 | Common Lisp | [Embeddable Common Lisp](https://gitlab.com/embeddable-common-lisp/ecl) | Common Lisp, C | Boehm-Weiser GC | LGPL 2+ | Full Common Lisp implementation, available as a shared library `libecl.so` embeddable in any C, C++ or other application. |
 | daScript | [daScript](https://dascript.org/) | C++ | None (region-based + manual MM?) | 3-clause BSD | A statically-typed [performance-oriented](https://dascript.org/#performance) scripting language. |
