@@ -294,6 +294,15 @@ gc = "Go's GC"
 license = "MIT"
 notes = "Implements Lua 5.1 with the added support for Go's channels. Lacks the debug hooks and several functions from the C version."
 
+[GraalJS]
+url = "https://github.com/oracle/graaljs"
+lang = "JavaScript"
+impl_in = "C++, C, Java"
+gc = "JVM's GC"
+license = "UPL 1.0"
+notes = "Implements ECMAScript 2022 for GraalVM (HotSpot JVM) using Truffle."
+
+
 [Gravity]
 url = "https://github.com/marcobambini/gravity"
 lang = "Gravity"
