@@ -888,6 +888,14 @@ gc = "Tracing?"
 license = "3-clause BSD"
 notes = "Implements a subset of R5RS."
 
+[TruffleRuby]
+url = "https://github.com/oracle/truffleruby"
+lang = "Ruby"
+impl_in = "C, Java"
+gc = "JVM's GC"
+license = "UPL 1.0"
+notes = "Implements Ruby for GraalVM (HotSpot JVM) using Truffle."
+
 [Umka]
 url = "https://github.com/vtereshkov/umka-lang"
 lang = "Umka"
