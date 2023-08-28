@@ -303,6 +303,15 @@ license = "UPL 1.0"
 notes = "Implements ECMAScript 2022 for GraalVM (HotSpot JVM) using Truffle."
 
 
+[GraalPy]
+url = "https://github.com/oracle/graalpython"
+lang = "Python"
+impl_in = "C, Java"
+gc = "JVM's GC"
+license = "UPL 1.0"
+notes = "Implements Python 3 for GraalVM (HotSpot JVM) using Truffle."
+
+
 [Gravity]
 url = "https://github.com/marcobambini/gravity"
 lang = "Gravity"
