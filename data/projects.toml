@@ -720,6 +720,14 @@ gc = "Tracing"
 license = "MIT"
 notes = "A small language syntactically similar to Ruby. [Embedding examples](https://github.com/ThakeeNathees/pocketlang/tree/master/tests/native/). [Performance comparison](https://github.com/ThakeeNathees/pocketlang#performance)."
 
+[pocketpy]
+url = "https://github.com/blueloveTH/pocketpy"
+lang = "Python"
+impl_in = "C++"
+gc = "Tracing"
+license = "MIT"
+notes = "Implements a subset of Python 3 (with [some differences](https://pocketpy.dev/features/differences/#different-behaviors)) in a single C++17 header file."
+
 [Python]
 url = "https://www.python.org/"
 lang = "Python"

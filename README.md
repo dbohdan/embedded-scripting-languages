@@ -96,6 +96,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | Python | [GraalPy](https://github.com/oracle/graalpython) | C, Java | JVM&#39;s GC | UPL 1.0 | Implements Python 3 for GraalVM (HotSpot JVM) using Truffle. |
 | Python | [Jython](http://www.jython.org/) | Java | JVM&#39;s GC | PSFL (BSD-like) | An implementation of Python 2 for the JVM. |
 | Python | [MicroPython](https://github.com/micropython/micropython) | C | Tracing | MIT | Implements the Python 3.4 syntax and some of the core datatypes. |
+| Python | [pocketpy](https://github.com/blueloveTH/pocketpy) | C++ | Tracing | MIT | Implements a subset of Python 3 (with [some differences](https://pocketpy.dev/features/differences/#different-behaviors)) in a single C++17 header file. |
 | Python | [Python](https://www.python.org/) | C | Ref. counting + cycle-detecting tracing GC | PSFL (BSD-like) | [Embedding Python in Another Application](https://docs.python.org/3.5/extending/embedding.html). |
 | QuakeC | [gmqcc/qcvm](https://github.com/graphitemaster/gmqcc) | C++ | None (no dynamic memory allocation) | MIT | A QuakeC compiler and VM. |
 | Quirrel | [Quirrel](https://github.com/GaijinEntertainment/quirrel) | C++ | Ref. counting | MIT | A fork of Squirrel with [new features](https://quirrel.io/doc/reference/diff_from_original.html). |
