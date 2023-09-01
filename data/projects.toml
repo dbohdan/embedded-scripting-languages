@@ -840,6 +840,14 @@ gc = "Tracing"
 license = "MIT"
 notes = "A language based on Lua with additional safety and expressiveness features implemented as a fork of LuaJIT."
 
+[simpleeval]
+url = "https://github.com/danthedeckie/simpleeval"
+lang = "simpleeval"
+impl_in = "Python"
+gc = "Python's GC"
+license = "MIT"
+notes = "Evaluates expressions in a subset of Python."
+
 [SquiLu]
 url = "https://github.com/mingodad/squilu"
 lang = "SquiLu"
