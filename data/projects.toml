@@ -409,7 +409,7 @@ license = "Choice of EPL, GPL, and LGPL"
 notes = "An implementation of Ruby on the JVM."
 
 [jsish]
-url = "http://jsish.org/"
+url = "https://github.com/pcmacdon/jsish"
 lang = "JavaScript"
 impl_in = "C"
 gc = "Ref. counting"
