@@ -51,6 +51,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | GameMonkey Script | [GameMonkey Script](http://www.gmscript.com/) | C++ | Tracing | MIT | Comes with C bindings. Similar to Lua, multithreaded. |
 | Gentee | [Gentee](https://github.com/gentee/gentee/) | Go | Go&#39;s GC | MIT | Statically typed. |
 | gluon | [gluon](https://github.com/gluon-lang/gluon) | Rust | Tracing | MIT | Statically typed. Inspired by Lua, Haskell, and OCaml. Each executing gluon thread gets a separate heap. |
+| Go | [Yaegi](https://github.com/traefik/yaegi) | Go | Go&#39;s GC | Apache License 2.0 | An embedded complete Go interpreter, on top of the Go runtime. |
 | Gravity | [Gravity](https://github.com/marcobambini/gravity) | C | Tracing | MIT | A class-based concurrent scripting language with a Swift-like syntax. |
 | Groovy | [Groovy](http://groovy-lang.org/) | Java | JVM&#39;s GC | Apache License 2.0 | A scripting language for the JVM. A large subset of Java is valid Groovy. [Integrating Groovy into applications](http://groovy-lang.org/integrating.html). |
 | Haxe | [HashLink](https://hashlink.haxe.org/) | C | Tracing (lazy sweep) | MIT | A bytecode interpreter and a baseline JIT compiler (x86/x86\_64 only) for [Haxe](https://haxe.org/). |
