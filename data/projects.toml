@@ -952,6 +952,14 @@ gc = "Tracing"
 license = "MIT"
 notes = "A small class-based performance-oriented scripting language. [Performance comparison](https://wren.io/performance.html)."
 
+["Yaegi"]
+url = "https://github.com/traefik/yaegi"
+lang = "Go"
+impl_in = "Go"
+gc = "Go's GC"
+license = "Apache License 2.0"
+notes = "An embedded complete Go interpreter, on top of the Go runtime."
+
 [zygomys]
 url = "https://github.com/glycerine/zygomys"
 lang = "zygomys"
