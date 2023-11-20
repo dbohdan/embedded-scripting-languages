@@ -808,6 +808,14 @@ gc = "Tracing"
 license = "Choice of 2-clause BSD, Ruby license, GPL 2"
 notes = "An embeddable object-oriented scripting language. [Running Ruby in C](https://silverhammermba.github.io/emberb/embed/)."
 
+[Rune]
+url = "https://github.com/rune-rs/rune"
+lang = "Rune"
+impl_in = "Rust"
+gc = "Ref. counting"
+license = "MIT or Apache License 2.0"
+notes = "A dynamic programming language that is easily embeddable and has support for an exciting set of language features. Asynchronous first and const evaluation."
+
 [s7]
 url = "https://ccrma.stanford.edu/software/snd/snd/s7.html"
 lang = "Scheme"
