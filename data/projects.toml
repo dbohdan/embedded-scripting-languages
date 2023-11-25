@@ -814,7 +814,7 @@ lang = "Rune"
 impl_in = "Rust"
 gc = "Ref. counting"
 license = "MIT or Apache License 2.0"
-notes = "A dynamic programming language that is easily embeddable and has support for an exciting set of language features. Asynchronous first and const evaluation."
+notes = "An embeddable dynamic programming language. Asynchronous-first and [const-evaluation](https://rune-rs.github.io/#const-evaluation)."
 
 [s7]
 url = "https://ccrma.stanford.edu/software/snd/snd/s7.html"

@@ -113,6 +113,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | Ruby | [mruby/c](https://github.com/mrubyc/mrubyc) | C | Ref. counting | 3-clause BSD | An even smaller implementation of Ruby for microcontrollers with limited memory. |
 | Ruby | [Ruby](https://www.ruby-lang.org/en/) | C | Tracing | Choice of 2-clause BSD, Ruby license, GPL 2 | An embeddable object-oriented scripting language. [Running Ruby in C](https://silverhammermba.github.io/emberb/embed/). |
 | Ruby | [TruffleRuby](https://github.com/oracle/truffleruby) | C, Java | JVM&#39;s GC | UPL 1.0 | Implements Ruby for GraalVM (HotSpot JVM) using Truffle. |
+| Rune | [Rune](https://github.com/rune-rs/rune) | Rust | Ref. counting | MIT or Apache License 2.0 | An embeddable dynamic programming language. Asynchronous-first and [const-evaluation](https://rune-rs.github.io/#const-evaluation). |
 | Scheme | [Animula](https://gitlab.com/hardenedlinux/animula) | C | Tracing | Compiler **GPL 3+** while VM is LGPL 3+ | An optimizing compiler and VM for embedded systems. R7RS. |
 | Scheme | [Chibi Scheme](https://github.com/ashinn/chibi-scheme) | C | Tracing | 3-clause BSD | Implements R7RS small. |
 | Scheme | [CHICKEN Scheme](https://call-cc.org/) | C | Tracing | 3-clause BSD | Implements R5RS (with some [changes](http://wiki.call-cc.org/man/4/Supported%20language)). R7RS support is a work in progress. [Examples of embedding CHICKEN](https://wiki.call-cc.org/embedding). |
