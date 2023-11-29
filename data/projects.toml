@@ -742,7 +742,7 @@ lang = "Python"
 impl_in = "C"
 gc = "Ref. counting + cycle-detecting tracing GC"
 license = "PSFL (BSD-like)"
-notes = "[Embedding Python in Another Application](https://docs.python.org/3.5/extending/embedding.html)."
+notes = "[\"Embedding Python in Another Application\"](https://docs.python.org/3/extending/embedding.html)."
 
 ["gmqcc/qcvm"]
 url = "https://github.com/graphitemaster/gmqcc"
