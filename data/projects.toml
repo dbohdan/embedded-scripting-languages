@@ -889,7 +889,7 @@ license = "Apache License 2.0"
 notes = "Starlark for the JVM. The original implementation."
 
 ["Starlark (Rust)"]
-url = "https://github.com/google/starlark-rust/"
+url = "https://github.com/facebookexperimental/starlark-rust"
 lang = "Starlark"
 impl_in = "Rust"
 gc = "?"
