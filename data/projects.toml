@@ -43,7 +43,7 @@ url = "https://www.asplang.org/"
 lang = "Asp"
 impl_in = "C"
 gc = "Ref. counting inside a static memory area"
-license = "Public domain"
+license = "MIT"
 notes = "Python-like. Targets embedded systems. Allows blocking calls in scripts without blocking the application. Runs compiled bytecode. Not related to Microsoft's Active Server Pages."
 
 [Atlast]
