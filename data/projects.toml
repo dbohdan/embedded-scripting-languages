@@ -896,6 +896,14 @@ gc = "?"
 license = "Apache-2.0"
 notes = "Starlark in Rust. [Python bindings](https://github.com/inducer/starlark-pyo3)."
 
+[Steel]
+url = "https://github.com/mattwparas/steel"
+lang = "Scheme"
+impl_in = "Rust"
+gc = "Ref. counting + tracing GC"
+license = "Apache-2.0 or MIT"
+notes = "Aims for eventual R5RS and R7RS compliance. Has extensions inspired by Racket."
+
 [Tcl]
 url = "http://tcl-lang.org/"
 lang = "Tcl"
