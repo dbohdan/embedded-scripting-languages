@@ -484,7 +484,7 @@ notes = "A Tcl-like language incompatible with mainline Tcl."
 url = "https://github.com/FascinatedBox/lily/"
 lang = "Lily"
 impl_in = "C"
-gc = "Ref. counting + GC"
+gc = "Ref. counting + tracing GC"
 license = "MIT"
 notes = "A language focusing on expressiveness and safety."
 

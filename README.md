@@ -73,7 +73,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | Jsonnet | [Jsonnet](https://jsonnet.org/) | C++ | Tracing | Apache-2.0 | A functional configuration language that extends JSON. Untrusted code: can't access the file system or network, can use up memory and CPU time for a DoS attack. Has [bindings](https://jsonnet.org/ref/bindings.html) for C, C++, Go, Python, and other languages, as well as a separate native Go implementation. |
 | Ketos | [Ketos](https://github.com/murarth/ketos) | Rust | None (no heap allocation)? | Apache-2.0 | A functional Lisp. |
 | LIL | [LIL](http://runtimeterror.com/tech/lil/) | C, Object Pascal (separate implementations) | None (no reference support) | Zlib | A Tcl-like language incompatible with mainline Tcl. |
-| Lily | [Lily](https://github.com/FascinatedBox/lily/) | C | Ref. counting + GC | MIT | A language focusing on expressiveness and safety. |
+| Lily | [Lily](https://github.com/FascinatedBox/lily/) | C | Ref. counting + tracing GC | MIT | A language focusing on expressiveness and safety. |
 | ljs | [ljs](https://github.com/mingodad/ljs) | C | Tracing | MIT | Lua 5.3, Lua 5.1, and LuaJIT with a C/C++/Java/JavaScript syntax. Can convert Lua source code to ljs. |
 | Lua | [Go-Lua](https://github.com/Shopify/go-lua) | Go | Go&#39;s GC | MIT | Implements a subset of Lua 5.2. |
 | Lua | [GopherLua](https://github.com/yuin/gopher-lua) | Go | Go&#39;s GC | MIT | Implements Lua 5.1 with the added support for Go's channels. Lacks the debug hooks and several functions from the C version. |
