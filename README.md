@@ -91,6 +91,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | Perl | [Perl](https://www.perl.org/) | C | Ref. counting | Artistic-2.0 or GPL-3.0 | [Embedding Perl in Another Application](https://perldoc.perl.org/perlembed) |
 | PHP | [ephp](https://github.com/bragful/ephp) | Erlang | None (no collection inside interpreter state) | LGPL-2.1-or-later | Implements a subset of PHP 5.5. |
 | PHP | [PH7](https://github.com/symisc/PH7) | C | Ref. counting | **Symisc Public License** or proprietary | Implements a subset of PHP 5.3 with some changes like native UTF-8 support. |
+| Pluto | [Pluto](https://github.com/PlutoLang/Pluto) | C++ | Tracing | MIT | A superset of Lua 5.4 (outside of incompatibilies caused by new syntax). Adds syntax like `!=`, `break`, and string interpolation; expands the standard library; somewhat improves performance. |
 | pocketlang | [pocketlang](https://github.com/ThakeeNathees/pocketlang) | C | Tracing | MIT | A small language syntactically similar to Ruby. [Embedding examples](https://github.com/ThakeeNathees/pocketlang/tree/master/tests/native/). [Performance comparison](https://github.com/ThakeeNathees/pocketlang#performance). |
 | Prolog | [Erlog](https://github.com/rvirding/erlog) | Erlang | None () | Apache-2.0 | Interprets a subset of standard Prolog. |
 | Prolog | [Golog](https://github.com/mndrix/golog) | Go | Go&#39;s GC | MIT | Implements a subset of standard Prolog. |

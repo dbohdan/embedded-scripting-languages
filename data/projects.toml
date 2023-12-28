@@ -720,6 +720,14 @@ gc = "None (no reference support)"
 license = "BSD-2-Clause"
 notes = "A header-only library interpreter for a limited dialect of Tcl."
 
+[Pluto]
+url = "https://github.com/PlutoLang/Pluto"
+lang = "Pluto"
+impl_in = "C++"
+gc = "Tracing"
+license = "MIT"
+notes = "A superset of Lua 5.4 (outside of incompatibilies caused by new syntax). Adds syntax like `!=`, `break`, and string interpolation; expands the standard library; somewhat improves performance."
+
 [pocketlang]
 url = "https://github.com/ThakeeNathees/pocketlang"
 lang = "pocketlang"
