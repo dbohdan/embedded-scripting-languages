@@ -984,6 +984,14 @@ gc = "Go's GC"
 license = "Apache-2.0"
 notes = "An embedded complete Go interpreter, on top of the Go runtime."
 
+[ZetScript]
+url = "https://zetscript.org"
+lang = "ZetScript"
+impl_in = "C++"
+gc = "Ref. counting"
+license = "MIT"
+notes = "Comes with an API for C++ interop."
+
 [zygomys]
 url = "https://github.com/glycerine/zygomys"
 lang = "zygomys"

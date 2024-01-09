@@ -140,6 +140,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | Umka | [Umka](https://github.com/vtereshkov/umka-lang) | C | Ref. counting | BSD-2-Clause | Statically typed. |
 | Wirefilter | [Wirefilter](https://github.com/cloudflare/wirefilter) | Rust | None (no dynamic memory allocation) | MIT | An expression language for Wireshark-like filters. |
 | Wren | [Wren](https://github.com/munificent/wren) | C | Tracing | MIT | A small class-based performance-oriented scripting language. [Performance comparison](https://wren.io/performance.html). |
+| ZetScript | [ZetScript](https://zetscript.org) | C++ | Ref. counting | MIT | Comes with an API for C++ interop. |
 | zygomys | [zygomys](https://github.com/glycerine/zygomys) | Go | Go&#39;s GC | BSD-2-Clause | An embedded Lisp for Go. Inspired by Clojure, but more oriented towards imperative programming. Has an infix syntax layer that looks like a subset of Go. |
 
 ## See also
