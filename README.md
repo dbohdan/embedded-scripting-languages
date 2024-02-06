@@ -96,6 +96,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | Prolog | [Erlog](https://github.com/rvirding/erlog) | Erlang | None () | Apache-2.0 | Interprets a subset of standard Prolog. |
 | Prolog | [Golog](https://github.com/mndrix/golog) | Go | Go&#39;s GC | MIT | Implements a subset of standard Prolog. |
 | Python | [CircuitPython](https://github.com/adafruit/circuitpython) | C | Tracing | MIT | A fork of MicroPython, designed for API uniformity across many microcontrollers. |
+| Python | [gpython](https://github.com/go-python/gpython) | Go | Go&#39;s GC | BSD-3-Clause | Implements a subset of Python 3.4. |
 | Python | [GraalPy](https://github.com/oracle/graalpython) | C, Java | JVM&#39;s GC | UPL-1.0 | Implements Python 3 for GraalVM (HotSpot JVM) using Truffle. |
 | Python | [Jython](http://www.jython.org/) | Java | JVM&#39;s GC | PSFL (BSD-like) | An implementation of Python 2 for the JVM. |
 | Python | [MicroPython](https://github.com/micropython/micropython) | C | Tracing | MIT | Implements the Python 3.4 syntax and some of the core datatypes. |

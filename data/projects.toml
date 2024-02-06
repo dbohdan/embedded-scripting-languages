@@ -302,6 +302,14 @@ gc = "Go's GC"
 license = "MIT"
 notes = "Implements Lua 5.1 with the added support for Go's channels. Lacks the debug hooks and several functions from the C version."
 
+[gpython]
+url = "https://github.com/go-python/gpython"
+lang = "Python"
+impl_in = "Go"
+gc = "Go's GC"
+license = "BSD-3-Clause"
+notes = "Implements a subset of Python 3.4."
+
 [GraalJS]
 url = "https://github.com/oracle/graaljs"
 lang = "JavaScript"
