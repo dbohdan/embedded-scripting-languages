@@ -238,6 +238,14 @@ gc = "Tracing"
 license = "**GPL-2.0** or custom"
 notes = "The GC is pluggable."
 
+[fe]
+url = "https://github.com/rxi/fe"
+lang = "fe"
+impl_in = "C"
+gc = "Tracing"
+license = "MIT"
+notes = "Uses a fixed-size memory region. No `malloc`."
+
 [FTH]
 url = "http://fth.sourceforge.net"
 lang = "Forth"

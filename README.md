@@ -45,6 +45,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | Dyon | [Dyon](https://github.com/pistondevelopers/dyon) | Rust | None (Rust-style [lifetimes](http://www.piston.rs/dyon-tutorial/lifetimes.html)) | Apache-2.0 or MIT | Has optional, optimistic (succeed-by-default) static type checking. |
 | Expr | [Expr](https://github.com/antonmedv/expr) | Go | Go&#39;s GC | MIT | Compiles and evaluates statically-typed expressions. |
 | Falcon | [Falcon](http://falconpl.org/) | C++ | Tracing | **GPL-2.0** or custom | The GC is pluggable. |
+| fe | [fe](https://github.com/rxi/fe) | C | Tracing | MIT | Uses a fixed-size memory region. No `malloc`. |
 | Forth | [Atlast](https://www.fourmilab.ch/atlast/) | C | None (manual MM) | Public domain | A dialect of Forth originally developed at Autodesk. |
 | Forth | [FTH](http://fth.sourceforge.net) | C | Tracing | BSD-2-Clause | A dialect of Forth with objects, hashes, regular expressions, and other extensions. |
 | Forth | [pForth](http://www.softsynth.com/pforth/) | C | None (manual MM) | Public domain | A dialect of Forth. |
