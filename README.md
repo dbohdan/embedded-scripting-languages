@@ -147,12 +147,12 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 
 ## See also
 
-* [cwal: Scripting Engine Without A Language](https://fossil.wanderinghorse.net/r/cwal/home).
-* [Game scripting languages benchmarked](https://github.com/r-lyeh/scriptorium).
-* [Languages that compile to JavaScript](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS).
-* [Languages that compile to Lua](https://github.com/hengestone/lua-languages).
-* [miniKanren](http://minikanren.org/#implementations) logic programming language implementations.
-* [sol](https://github.com/ThePhD/sol2) &mdash; C++ bindings for Lua.
+- [cwal: Scripting Engine Without A Language](https://fossil.wanderinghorse.net/r/cwal/home).
+- [Game scripting languages benchmarked](https://github.com/r-lyeh/scriptorium).
+- [Languages that compile to JavaScript](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS).
+- [Languages that compile to Lua](https://github.com/hengestone/lua-languages).
+- [miniKanren](http://minikanren.org/#implementations) logic programming language implementations.
+- [sol](https://github.com/ThePhD/sol2) &mdash; C++ bindings for Lua.
 
 ## Contributing
 
