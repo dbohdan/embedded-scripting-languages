@@ -87,6 +87,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | Lua | [MoonSharp](https://www.moonsharp.org/) | C# | CLR&#39;s GC | BSD-3-Clause and other | CLR Based Lua implementation that is 99% compatible with Lua 5.2 |
 | Mond | [Mond](https://github.com/Rohansi/Mond/) | C# | CLR&#39;s GC | MIT | A dynamically typed scripting language with generators, async, remote debugging, and a binding API. |
 | Never | [Never](https://github.com/never-lang/never) | C | Tracing | MIT | A statically typed functional programming language. |
+| Nickel | [Nickel](https://nickel-lang.org/) | Rust | Ref. counting | MIT | A configuration language with gradual typing and contracts. [Python bindings](https://github.com/tweag/nickel/tree/master/pyckel). |
 | Pascal | [Pascal Script](http://www.remobjects.com/ps.aspx) | Object Pascal | None (manual MM) | modified zlib/libpng-License with mandatory attribution | Statically typed. Implements "most of Object Pascal". Can't define new classes. |
 | Pawn | [Pawn](http://www.compuphase.com/pawn/pawn.htm) | C | None (no heap allocation) | Apache-2.0 with a clause to explicitly permit static linking | A curly-brace language with a small-footprint VM. Represents data as 4/8-byte "cells". Compiles to CPU-specific bytecode. [More](https://wiki.alliedmods.net/Pawn_Tutorial#Language_Paradigms). |
 | Perl | [Perl](https://www.perl.org/) | C | Ref. counting | Artistic-2.0 or GPL-3.0 | [Embedding Perl in Another Application](https://perldoc.perl.org/perlembed) |

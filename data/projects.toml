@@ -656,6 +656,14 @@ gc = "Tracing"
 license = "MIT"
 notes = "A statically typed functional programming language."
 
+[Nickel]
+url = "https://nickel-lang.org/"
+lang = "Nickel"
+impl_in = "Rust"
+gc = "Ref. counting"
+license = "MIT"
+notes = "A configuration language with gradual typing and contracts. [Python bindings](https://github.com/tweag/nickel/tree/master/pyckel)."
+
 [njs]
 url = "https://nginx.org/en/docs/njs/"
 lang = "JavaScript"
