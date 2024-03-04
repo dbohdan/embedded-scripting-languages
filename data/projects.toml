@@ -568,6 +568,14 @@ gc = "Tracing"
 license = "MIT"
 notes = "Implements the Python 3.4 syntax and some of the core datatypes."
 
+[Moirai]
+url = "https://github.com/moirai-lang/moirai-kt"
+lang = "Moirai"
+impl_in = "Kotlin"
+gc = "JVM's GC"
+license = "MIT"
+notes = "A scripting language that calculates the worst-case execution time (WCET) before executing each script. Ideal for multi-tenant microservices and serverless applications."
+
 [Molt]
 url = "https://github.com/wduquette/molt"
 lang = "Tcl"
