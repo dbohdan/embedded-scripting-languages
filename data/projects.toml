@@ -574,7 +574,7 @@ lang = "Moirai"
 impl_in = "Kotlin"
 gc = "JVM's GC"
 license = "MIT"
-notes = "A scripting language that calculates the worst-case execution time (WCET) before executing each script. Ideal for multi-tenant microservices and serverless applications."
+notes = "A scripting language that calculates the worst-case execution time (WCET) before executing each script. Optimized for multi-tenant microservices and serverless applications."
 
 [Molt]
 url = "https://github.com/wduquette/molt"
