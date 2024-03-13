@@ -566,7 +566,7 @@ lang = "Python"
 impl_in = "C"
 gc = "Tracing"
 license = "MIT"
-notes = "Implements the Python 3.4 syntax and some of the core datatypes."
+notes = "Implements Python 3.4 syntax and some of the core datatypes."
 
 [Moirai]
 url = "https://github.com/moirai-lang/moirai-kt"
