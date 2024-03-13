@@ -9,7 +9,7 @@ jobs:
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Render template
         run: |
           make -B
