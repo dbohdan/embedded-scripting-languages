@@ -904,6 +904,14 @@ gc = "Python's GC"
 license = "MIT"
 notes = "Evaluates expressions in a subset of Python."
 
+[Snek]
+url = "https://github.com/keith-packard/snek"
+lang = "Snek"
+impl_in = "C"
+gc = "Tracing"
+license = "**GPL-3.0-or-later**"
+notes = 'A Python-inspired language. Targets "processors too small to run MicroPython".'
+
 [SquiLu]
 url = "https://github.com/mingodad/squilu"
 lang = "SquiLu"
