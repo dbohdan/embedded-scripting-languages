@@ -736,6 +736,14 @@ gc = "Ref. counting"
 license = "**Symisc Public License** or proprietary"
 notes = "Implements a subset of PHP 5.3 with some changes like native UTF-8 support."
 
+[PikaPython]
+url = "https://github.com/pikasTech/PikaPython"
+lang = "Python"
+impl_in = "C"
+gc = "Ref. counting"
+license = "MIT"
+notes = "Implements a variant of Python 3. The degree of compatibility with Python seems to be undocumented. Runs in as little as 4 KiB of RAM. Targets microcontrollers and Linux."
+
 [PicoC]
 url = "https://github.com/zsaleeba/picoc"
 lang = "C"
