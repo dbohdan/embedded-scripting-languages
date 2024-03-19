@@ -816,6 +816,14 @@ gc = "Ref. counting"
 license = "MIT"
 notes = "A fork of Squirrel with [new features](https://quirrel.io/doc/reference/diff_from_original.html)."
 
+[Ravi]
+url = "https://github.com/dibyendumajumdar/ravi"
+lang = "Lua"
+impl_in = "C"
+gc = "Tracing"
+license = "MIT"
+notes = "“Ravi is a dialect of Lua with limited optional static typing and features a JIT compiler powered by MIR as well as support for AOT compilation to native code.”"
+
 [Rebol]
 url = "https://github.com/Oldes/Rebol3"
 lang = "Rebol"
