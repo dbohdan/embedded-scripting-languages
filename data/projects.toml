@@ -62,6 +62,14 @@ gc = "JVM's GC"
 license = "Apache-2.0"
 notes = "An small, embeddable Java source code interpreter. Understands Java code with certain extensions like method closures."
 
+[Berry]
+url = "https://github.com/berry-lang/berry"
+lang = "Berry"
+impl_in = "C"
+gc = "Mark-Sweep GC"
+license = "MIT"
+notes = "Ultra-lightweight dynamically typed embedded scripting language, designed for lower-performance devices with limited memory."
+
 [Boron]
 url = "http://urlan.sourceforge.net/boron/"
 lang = "Boron"
