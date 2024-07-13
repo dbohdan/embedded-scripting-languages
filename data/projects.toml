@@ -86,6 +86,14 @@ gc = "Python's GC"
 license = "Apache-2.0"
 notes = "A non-Turing-complete expression language."
 
+["cel-rust"]
+url = "https://github.com/clarkmcc/cel-rust"
+lang = "Common Expression Language (CEL)"
+impl_in = "Rust"
+gc = "None"
+license = "MIT"
+notes = "A non-Turing-complete expression language."
+
 [CircuitPython]
 url = "https://github.com/adafruit/circuitpython"
 lang = "Python"
