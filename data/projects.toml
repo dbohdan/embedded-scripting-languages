@@ -78,6 +78,14 @@ gc = "JVM's GC"
 license = "Apache-2.0"
 notes = "Implements Datalog."
 
+["cel-python"]
+url = "https://github.com/cloud-custodian/cel-python"
+lang = "Common Expression Language (CEL)"
+impl_in = "Python"
+gc = "Python's GC"
+license = "Apache-2.0"
+notes = "A non-Turing-complete expression language."
+
 [CircuitPython]
 url = "https://github.com/adafruit/circuitpython"
 lang = "Python"
