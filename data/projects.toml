@@ -400,6 +400,14 @@ gc = "Tracing (lazy sweep)"
 license = "MIT"
 notes = "A bytecode interpreter and a baseline JIT compiler (x86/x86\\_64 only) for [Haxe](https://haxe.org/)."
 
+[Interpreter]
+url = "https://github.com/Tyill/interpreter"
+lang = "Interpreter"
+impl_in = "C++"
+gc = "None"
+license = "MIT"
+notes = "A small interpreter in one header and one source code file with optional extensions (arithmetic operations, containers, filesystem, and others)."
+
 [Io]
 url = "https://github.com/stevedekorte/io"
 lang = "Io"
@@ -407,14 +415,6 @@ impl_in = "C"
 gc = "Tracing"
 license = "BSD-3-Clause"
 notes = "A prototype-based OO language."
-
-[Interpreter]
-url = "https://github.com/Tyill/interpreter"
-lang = "Interpreter"
-impl_in = "C++"
-gc = "None"
-license = "MIT"
-notes = "Simple tiny interpreter, extensible by the base library (arithmetic operations, containers, filesystem.. etc). Only one header and source file."
 
 [Janet]
 url = "https://janet-lang.org/"

@@ -60,6 +60,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | Groovy | [Groovy](http://groovy-lang.org/) | Java | JVM&#39;s GC | Apache-2.0 | A scripting language for the JVM. A large subset of Java is valid Groovy. [Integrating Groovy into applications](http://groovy-lang.org/integrating.html). |
 | Haxe | [HashLink](https://hashlink.haxe.org/) | C | Tracing (lazy sweep) | MIT | A bytecode interpreter and a baseline JIT compiler (x86/x86\_64 only) for [Haxe](https://haxe.org/). |
 | Haxe, others | [Neko](http://nekovm.org/) | C | Boehm | MIT | The NekoVM is a target for several compilers, including [Haxe](http://haxe.org/). |
+| Interpreter | [Interpreter](https://github.com/Tyill/interpreter) | C++ | None | MIT | A small interpreter in one header and one source code file with optional extensions (arithmetic operations, containers, filesystem, and others). |
 | Io | [Io](https://github.com/stevedekorte/io) | C | Tracing | BSD-3-Clause | A prototype-based OO language. |
 | Janet | [Janet](https://janet-lang.org/) | C | Tracing | MIT | A functional and imperative language with a Lisp syntax. |
 | Java | [BeanShell](https://github.com/beanshell/beanshell/) | Java | JVM&#39;s GC | Apache-2.0 | An small, embeddable Java source code interpreter. Understands Java code with certain extensions like method closures. |
