@@ -66,9 +66,9 @@ notes = "An small, embeddable Java source code interpreter. Understands Java cod
 url = "https://github.com/berry-lang/berry"
 lang = "Berry"
 impl_in = "C"
-gc = "Mark-Sweep GC"
+gc = "Tracing"
 license = "MIT"
-notes = "Ultra-lightweight dynamically typed embedded scripting language, designed for lower-performance devices with limited memory."
+notes = "Lightweight dynamically-typed embedded scripting language designed for lower-performance devices with limited memory."
 
 [Boron]
 url = "http://urlan.sourceforge.net/boron/"

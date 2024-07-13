@@ -25,6 +25,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | Awk | [Libmawk](http://repo.hu/projects/libmawk/) | C | Ref. counting | **GPL-2.0** | Implements Awk. A fork of mawk 1.3 restructured for embedding. |
 | Awk, Basic, Pascal | [Libfawk](http://repo.hu/projects/libfawk/) | C | Ref. counting | BSD-3-Clause | A multi-language VM. Includes compilers for three languages: Fawk (Awk dialect), Fbas (Basic dialect), and Fpas (Pascal dialect). |
 | Basic | [MY-BASIC](https://github.com/paladin-t/my_basic) | C | Ref. counting + cycle-detecting tracing GC | MIT | A Basic dialect with prototype-based OOP. |
+| Berry | [Berry](https://github.com/berry-lang/berry) | C | Tracing | MIT | Lightweight dynamically-typed embedded scripting language designed for lower-performance devices with limited memory. |
 | Boron | [Boron](http://urlan.sourceforge.net/boron/) | C | Tracing | LGPL-3.0-or-later | An embeddable scripting language similar to Rebol. |
 | C | [PicoC](https://github.com/zsaleeba/picoc) | C | None (manual MM) | BSD-3-Clause | Statically typed. Interprets a subset of C. |
 | C | [tcc](https://repo.or.cz/tinycc.git/) | C | None | LGPL-2.0-only | A small C compiler that can be used as a library for a C JIT. [libtcc header](https://repo.or.cz/tinycc.git/blob/HEAD:/libtcc.h). [Embedding example](https://repo.or.cz/tinycc.git/blob/HEAD:/tests/libtcc_test.c). |
