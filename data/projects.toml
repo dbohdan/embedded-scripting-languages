@@ -124,7 +124,7 @@ lang = "Common Expression Language (CEL)"
 impl_in = "Go"
 gc = "Go's GC"
 license = "Apache-2.0"
-notes = "A non-Turing-complete expression language for Go."
+notes = "A non-Turing-complete expression language."
 
 [daScript]
 url = "https://dascript.org/"
