@@ -78,6 +78,14 @@ gc = "JVM's GC"
 license = "Apache-2.0"
 notes = "Implements Datalog."
 
+["cel-go"]
+url = "https://github.com/google/cel-go"
+lang = "Common Expression Language (CEL)"
+impl_in = "Go"
+gc = "Go's GC"
+license = "Apache-2.0"
+notes = "A non-Turing-complete expression language."
+
 ["cel-python"]
 url = "https://github.com/cloud-custodian/cel-python"
 lang = "Common Expression Language (CEL)"
@@ -133,14 +141,6 @@ impl_in = "Common Lisp, C++"
 gc = "MPS GC (Boehm-Weiser also supported)"
 license = "LGPL-2.0-or-later"
 notes = "Full Common Lisp implementation well integrated with C++, using LLVM for the code generation, to integrate closely with C++ applications or libraries."
-
-["Common Expression Language"]
-url = "https://github.com/google/cel-spec"
-lang = "Common Expression Language (CEL)"
-impl_in = "Go"
-gc = "Go's GC"
-license = "Apache-2.0"
-notes = "A non-Turing-complete expression language."
 
 [daScript]
 url = "https://dascript.org/"
