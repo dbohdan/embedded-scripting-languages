@@ -928,6 +928,14 @@ gc = "Ref. counting + tracing CG"
 license = "MIT"
 notes = "[Features](http://www.sgscript.org/pages/advdocs/sgscript.docs.htm#Why-SGScript) include a built-in data serialization format, coroutines, class-based OOP, sandboxed evaluation, a built-in debugger and profiler."
 
+[sh]
+url = "https://github.com/mvdan/sh"
+lang = "shell"
+impl_in = "Go"
+gc = "Go's GC"
+license = "MIT"
+notes = "Implements POSIX shell, Bash, and mksh in pure Go. There are [caveats](https://github.com/mvdan/sh#caveats) about compatibility."
+
 [Shine]
 url = "https://github.com/richardhundt/shine"
 lang = "Shine"
