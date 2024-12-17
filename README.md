@@ -134,7 +134,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | Scheme | [Steel](https://github.com/mattwparas/steel) | Rust | Ref. counting + tracing GC | Apache-2.0 or MIT | Aims for eventual R5RS and R7RS compliance. Has extensions inspired by Racket. |
 | Scheme | [TinyScheme](http://tinyscheme.sourceforge.net/) | C | Tracing? | BSD-3-Clause | Implements a subset of R5RS. |
 | SGScript | [SGScript](https://github.com/snake5/sgscript) | C | Ref. counting + tracing CG | MIT | [Features](http://www.sgscript.org/pages/advdocs/sgscript.docs.htm#Why-SGScript) include a built-in data serialization format, coroutines, class-based OOP, sandboxed evaluation, a built-in debugger and profiler. |
-| shell | [sh](https://github.com/mvdan/sh) | Go | Go&#39;s GC | MIT | Implements POSIX shell, Bash, and mksh in pure Go. There are [caveats](https://github.com/mvdan/sh#caveats) about compatibility. |
+| shell | [sh](https://github.com/mvdan/sh) | Go | Go&#39;s GC | MIT | Implements POSIX shell, Bash, and mksh in pure Go. There are caveats with compatibility. See the [readme](https://github.com/mvdan/sh#caveats) and issues like [mvdan/sh#221](https://github.com/mvdan/sh/issues/221). |
 | Shine | [Shine](https://github.com/richardhundt/shine) | C | Tracing | MIT | A language based on Lua with additional safety and expressiveness features implemented as a fork of LuaJIT. |
 | simpleeval | [simpleeval](https://github.com/danthedeckie/simpleeval) | Python | Python&#39;s GC | MIT | Evaluates expressions in a subset of Python. |
 | Snek | [Snek](https://github.com/keith-packard/snek) | C | Tracing | **GPL-3.0-or-later** | A Python-inspired language. Targets "processors too small to run MicroPython". |

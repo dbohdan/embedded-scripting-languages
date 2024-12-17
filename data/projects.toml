@@ -934,7 +934,7 @@ lang = "shell"
 impl_in = "Go"
 gc = "Go's GC"
 license = "MIT"
-notes = "Implements POSIX shell, Bash, and mksh in pure Go. There are [caveats](https://github.com/mvdan/sh#caveats) about compatibility."
+notes = "Implements POSIX shell, Bash, and mksh in pure Go. There are caveats with compatibility. See the [readme](https://github.com/mvdan/sh#caveats) and issues like [mvdan/sh#221](https://github.com/mvdan/sh/issues/221)."
 
 [Shine]
 url = "https://github.com/richardhundt/shine"
