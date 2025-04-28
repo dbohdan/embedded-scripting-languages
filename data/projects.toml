@@ -44,7 +44,7 @@ lang = "Asp"
 impl_in = "C"
 gc = "Ref. counting inside a static memory area"
 license = "MIT"
-notes = "Python-like. Targets embedded systems. Allows blocking calls in scripts without blocking the application. Runs compiled bytecode. Not related to Microsoft's Active Server Pages."
+notes = "Python-like. Targets embedded systems. Allows making blocking calls in scripts without blocking the main application. Runs compiled bytecode. Not related to Microsoft's Active Server Pages."
 
 [Atlast]
 url = "https://www.fourmilab.ch/atlast/"
@@ -92,7 +92,7 @@ lang = "Common Expression Language (CEL)"
 impl_in = "Go"
 gc = "Go's GC"
 license = "Apache-2.0"
-notes = "A non-Turing-complete expression language."
+notes = "Rust implementation of CEL, a non-Turing-complete expression language."
 
 ["cel-python"]
 url = "https://github.com/cloud-custodian/cel-python"
@@ -140,7 +140,7 @@ lang = "Scheme"
 impl_in = "C"
 gc = "Tracing"
 license = "BSD-3-Clause"
-notes = "Implements R5RS (with some [changes](http://wiki.call-cc.org/man/4/Supported%20language)). R7RS support is a work in progress. [Examples of embedding CHICKEN](https://wiki.call-cc.org/embedding)."
+notes = "Implements R5RS (with some [changes](http://wiki.call-cc.org/man/4/Supported%20language)). R7RS support is a work in progress. See [examples of embedding CHICKEN](https://wiki.call-cc.org/embedding)."
 
 [Clasp]
 url = "https://github.com/drmeister/clasp"
@@ -148,7 +148,7 @@ lang = "Common Lisp"
 impl_in = "Common Lisp, C++"
 gc = "MPS GC (Boehm-Weiser also supported)"
 license = "LGPL-2.0-or-later"
-notes = "Full Common Lisp implementation well integrated with C++, using LLVM for the code generation, to integrate closely with C++ applications or libraries."
+notes = "Full Common Lisp implementation well-integrated with C++, using LLVM for code generation to integrate closely with C++ applications or libraries."
 
 [daScript]
 url = "https://dascript.org/"
@@ -212,7 +212,7 @@ lang = "Dyon"
 impl_in = "Rust"
 gc = "None (Rust-style [lifetimes](http://www.piston.rs/dyon-tutorial/lifetimes.html))"
 license = "Apache-2.0 or MIT"
-notes = "Has optional, optimistic (succeed-by-default) static type checking."
+notes = "Features optional, optimistic (succeed-by-default) static type checking."
 
 ["Embeddable Common Lisp"]
 url = "https://gitlab.com/embeddable-common-lisp/ecl"
@@ -348,7 +348,7 @@ lang = "JavaScript"
 impl_in = "C++, C, Java"
 gc = "JVM's GC"
 license = "UPL-1.0"
-notes = "Implements ECMAScript 2022 for GraalVM (HotSpot JVM) using Truffle."
+notes = "Implements ECMAScript 2022 for GraalVM (HotSpot JVM) using the Truffle framework."
 
 
 [GraalPy]
@@ -357,7 +357,7 @@ lang = "Python"
 impl_in = "C, Java"
 gc = "JVM's GC"
 license = "UPL-1.0"
-notes = "Implements Python 3 for GraalVM (HotSpot JVM) using Truffle."
+notes = "Implements Python 3 for GraalVM (HotSpot JVM) using the Truffle framework."
 
 
 [Gravity]
@@ -534,7 +534,7 @@ lang = "Lily"
 impl_in = "C"
 gc = "Ref. counting + tracing GC"
 license = "MIT"
-notes = "A language focusing on expressiveness and safety."
+notes = "A language focused on expressiveness and safety."
 
 [ljs]
 url = "https://github.com/mingodad/ljs"
@@ -574,7 +574,7 @@ lang = "Lua"
 impl_in = "OCaml"
 gc = "OCaml's GC"
 license = "BSD-2-Clause"
-notes = "Embeddable Lua 2.5 reimplementation that integrates with OCaml type and module system. It's possible to extend or even replace the standard library with your own modules."
+notes = "Embeddable Lua 2.5 reimplementation that integrates with OCaml type and module system. It is possible to extend or even replace the standard library with custom modules."
 
 [Luau]
 url = "https://luau-lang.org/"
@@ -614,7 +614,7 @@ lang = "Tcl"
 impl_in = "Rust"
 gc = "Ref. counting"
 license = "BSD-3-Clause"
-notes = "A minimal Tcl implementation for Rust applications and libraries."
+notes = "A minimal Tcl implementation designed for Rust applications and libraries."
 
 [Mond]
 url = "https://github.com/Rohansi/Mond/"
@@ -966,7 +966,7 @@ lang = "SquiLu"
 impl_in = "C++"
 gc = "Ref. counting"
 license = "MIT, some extensions LGPL or GPL"
-notes = "A fork of [Squirrel](http://squirrel-lang.org/). Changes the syntax to accept a subset of JavaScript and C/C++. Implements Lua's features like string pattern matching and global table manipulation functions. Adds extensions for database access (SQLite3, MySQL, PostgreSQL), sockets, and other features."
+notes = "A fork of [Squirrel](http://squirrel-lang.org/). Changes the syntax to accept a subset of JavaScript and C/C++. Implements Lua's features like string pattern matching and global table manipulation functions. It adds extensions for database access (SQLite3, MySQL, PostgreSQL), sockets, and other features."
 
 [Squirrel]
 url = "http://squirrel-lang.org/"
@@ -1006,7 +1006,7 @@ lang = "Scheme"
 impl_in = "Rust"
 gc = "Ref. counting + tracing GC"
 license = "Apache-2.0 or MIT"
-notes = "Aims for eventual R5RS and R7RS compliance. Has extensions inspired by Racket."
+notes = "Aims for eventual R5RS and R7RS language compliance, with extensions inspired by Racket."
 
 [Tcl]
 url = "http://tcl-lang.org/"
@@ -1014,7 +1014,7 @@ lang = "Tcl"
 impl_in = "C"
 gc = "Ref. counting"
 license = "Tcl license (BSD-like)"
-notes = "An embeddable general-purpose scripting language with a rich C API. Has a cross-platform GUI toolkit called [Tk](https://wiki.tcl-lang.org/477). [How to embed Tcl in C applications](https://wiki.tcl-lang.org/2074)."
+notes = 'An embeddable general-purpose scripting language with a rich C API. Includes a cross-platform GUI toolkit called [Tk](https://wiki.tcl-lang.org/477). See ["How to embed Tcl in C applications"](https://wiki.tcl-lang.org/2074).'
 
 [tcc]
 url = "https://repo.or.cz/tinycc.git/"
