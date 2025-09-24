@@ -32,7 +32,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | C#, other CLR languages | [Mono](http://www.mono-project.com/docs/advanced/embedding/scripting/) | C | Tracing | MIT and other | Implements the [CLR](https://en.wikipedia.org/wiki/Common_Language_Runtime). |
 | ChaiScript | [ChaiScript](http://chaiscript.com/) | C++ | Ref. counting | BSD-3-Clause | A header-only C++14 interpreter library. |
 | Clojure | [sci](https://github.com/borkdude/sci) | Clojure | host VM&#39;s GC | EPL-1.0 | An interpreter for a subset of Clojure for Clojure and ClojureScript. |
-| Common Expression Language (CEL) | [cel-go](https://github.com/google/cel-go) | Go | Go&#39;s GC | Apache-2.0 | Rust implementation of CEL, a non-Turing-complete expression language. |
+| Common Expression Language (CEL) | [cel-go](https://github.com/google/cel-go) | Go | Go&#39;s GC | Apache-2.0 | Go implementation of CEL, a non-Turing-complete expression language. |
 | Common Expression Language (CEL) | [cel-python](https://github.com/cloud-custodian/cel-python) | Python | Python&#39;s GC | Apache-2.0 | A non-Turing-complete expression language. |
 | Common Expression Language (CEL) | [cel-rust](https://github.com/clarkmcc/cel-rust) | Rust | None | MIT | A non-Turing-complete expression language. |
 | Common Lisp | [Clasp](https://github.com/drmeister/clasp) | Common Lisp, C++ | MPS GC (Boehm-Weiser also supported) | LGPL-2.0-or-later | Full Common Lisp implementation well-integrated with C++, using LLVM for code generation to integrate closely with C++ applications or libraries. |

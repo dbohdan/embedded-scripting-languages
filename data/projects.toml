@@ -92,7 +92,7 @@ lang = "Common Expression Language (CEL)"
 impl_in = "Go"
 gc = "Go's GC"
 license = "Apache-2.0"
-notes = "Rust implementation of CEL, a non-Turing-complete expression language."
+notes = "Go implementation of CEL, a non-Turing-complete expression language."
 
 ["cel-python"]
 url = "https://github.com/cloud-custodian/cel-python"
