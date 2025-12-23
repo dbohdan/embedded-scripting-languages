@@ -846,7 +846,7 @@ lang = "JavaScript"
 impl_in = "C"
 gc = "Ref. counting + cycle-detecting tracing GC"
 license = "MIT"
-notes = "A small embedded JavaScript interpreter that implements almost all of ES2019 and much of ES2020."
+notes = "A small embedded JavaScript interpreter that implements almost all of ES2023."
 
 [Quirrel]
 url = "https://github.com/GaijinEntertainment/quirrel"

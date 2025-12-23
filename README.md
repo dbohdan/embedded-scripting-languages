@@ -74,7 +74,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | JavaScript | [MuJS](https://mujs.com/) | C | Tracing | ISC | Implements JavaScript (ES5). Has a similar C interface to Lua. |
 | JavaScript | [njs](https://nginx.org/en/docs/njs/) | C | None (no collection performed) | BSD-2-Clause | Implements a subset of ES5.1 with some ES6 extensions. |
 | JavaScript | [otto](https://github.com/robertkrimen/otto) | Go | Go&#39;s GC | MIT | Implements ES5 with [some limitations](https://github.com/robertkrimen/otto#caveat-emptor). |
-| JavaScript | [QuickJS](https://bellard.org/quickjs/) | C | Ref. counting + cycle-detecting tracing GC | MIT | A small embedded JavaScript interpreter that implements almost all of ES2019 and much of ES2020. |
+| JavaScript | [QuickJS](https://bellard.org/quickjs/) | C | Ref. counting + cycle-detecting tracing GC | MIT | A small embedded JavaScript interpreter that implements almost all of ES2023. |
 | Jinx | [Jinx](https://jamesboer.github.io/Jinx/) | C++17 | Ref. counting | MIT | Designed for use in realtime applications such as video games. |
 | Jsonnet | [Jsonnet](https://jsonnet.org/) | C++ | Tracing | Apache-2.0 | A functional configuration language that extends JSON. Untrusted code: can't access the file system or network, can use up memory and CPU time for a DoS attack. Has [bindings](https://jsonnet.org/ref/bindings.html) for C, C++, Go, Python, and other languages, as well as a separate native Go implementation. |
 | Ketos | [Ketos](https://github.com/murarth/ketos) | Rust | None (no heap allocation)? | Apache-2.0 | A functional Lisp. |
