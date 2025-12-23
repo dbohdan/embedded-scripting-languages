@@ -600,6 +600,14 @@ gc = "Tracing"
 license = "MIT"
 notes = "Implements Python 3.4 syntax and some of the core datatypes."
 
+[MicroQuickJS]
+url = "https://github.com/bellard/mquickjs"
+lang = "JavaScript"
+impl_in = "C"
+gc = "Tracing"
+license = "MIT"
+notes = "A interpreter related to QuickJS aimed at embedded systems that fits in 100 kB of ROM and as little as 10 kB of RAM. Supports a subset of JavaScript close to ES5."
+
 [Moirai]
 url = "https://github.com/moirai-lang/moirai-kt"
 lang = "Moirai"
