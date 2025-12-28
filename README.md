@@ -123,6 +123,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | Ruby | [JRuby](http://www.jruby.org/) | Java | JVM&#39;s GC | Choice of EPL, GPL, and LGPL | An implementation of Ruby on the JVM. |
 | Ruby | [mruby](https://github.com/mruby/mruby) | C | Tracing | MIT | A lightweight implementation of Ruby. Has a compile-time package manager. |
 | Ruby | [mruby/c](https://github.com/mrubyc/mrubyc) | C | Ref. counting | BSD-3-Clause | An even smaller implementation of Ruby for microcontrollers with limited memory. |
+| Ruby | [PicoRuby](https://github.com/picoruby/picoruby) | C | Ref. counting | MIT | An mruby implementation for microcontrollers based on the mruby/c VM. Depends only on the C standard library. |
 | Ruby | [Ruby](https://www.ruby-lang.org/en/) | C | Tracing | Choice of BSD-2-Clause, Ruby license, GPL-2.0 | An embeddable object-oriented scripting language. [Running Ruby in C](https://silverhammermba.github.io/emberb/embed/). |
 | Ruby | [TruffleRuby](https://github.com/oracle/truffleruby) | C, Java | JVM&#39;s GC | UPL-1.0 | Implements Ruby for GraalVM (HotSpot JVM) using Truffle. |
 | Rune | [Rune](https://github.com/rune-rs/rune) | Rust | Ref. counting | MIT or Apache-2.0 | An embeddable dynamic programming language. Asynchronous-first and [const-evaluation](https://rune-rs.github.io/#const-evaluation). |

@@ -776,6 +776,14 @@ gc = "Ref. counting"
 license = "**Symisc Public License** or proprietary"
 notes = "Implements a subset of PHP 5.3 with some changes like native UTF-8 support."
 
+[PicoRuby]
+url = "https://github.com/picoruby/picoruby"
+lang = "Ruby"
+impl_in = "C"
+gc = "Ref. counting"
+license = "MIT"
+notes = "An mruby implementation for microcontrollers based on the mruby/c VM. Depends only on the C standard library."
+
 [PikaPython]
 url = "https://github.com/pikasTech/PikaPython"
 lang = "Python"
