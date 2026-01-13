@@ -302,6 +302,14 @@ gc = "Tracing"
 license = "MIT"
 notes = "Statically typed. Inspired by Lua, Haskell, and OCaml. Each executing gluon thread gets a separate heap."
 
+[GoAWK]
+url = "https://github.com/benhoyt/goawk"
+lang = "Awk"
+impl_in = "Go"
+gc = "Go's GC"
+license = "MIT"
+notes = "A POSIX-compliant AWK, with CSV support."
+
 [Goja]
 url = "https://github.com/dop251/goja"
 lang = "JavaScript"

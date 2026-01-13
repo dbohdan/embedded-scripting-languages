@@ -22,6 +22,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | Anko | [Anko](https://github.com/mattn/anko/) | Go | Go&#39;s GC | MIT | Scriptable interpreter with syntax similar to Go. |
 | ArkScript | [ArkScript](https://github.com/SuperFola/Ark) | C++ | None (resource release is destruction + optional manual MM) | MPL-2.0 | A small functional Lisp-like programming language. Separate bytecode compiler and VM. |
 | Asp | [Asp](https://www.asplang.org/) | C | Ref. counting inside a static memory area | MIT | Python-like. Targets embedded systems. Allows making blocking calls in scripts without blocking the main application. Runs compiled bytecode. Not related to Microsoft's Active Server Pages. |
+| Awk | [GoAWK](https://github.com/benhoyt/goawk) | Go | Go&#39;s GC | MIT | A POSIX-compliant AWK, with CSV support. |
 | Awk | [Libmawk](http://repo.hu/projects/libmawk/) | C | Ref. counting | **GPL-2.0** | Implements Awk. A fork of mawk 1.3 restructured for embedding. |
 | Awk, Basic, Pascal | [Libfawk](http://repo.hu/projects/libfawk/) | C | Ref. counting | BSD-3-Clause | A multi-language VM. Includes compilers for three languages: Fawk (Awk dialect), Fbas (Basic dialect), and Fpas (Pascal dialect). |
 | Basic | [MY-BASIC](https://github.com/paladin-t/my_basic) | C | Ref. counting + cycle-detecting tracing GC | MIT | A Basic dialect with prototype-based OOP. |
