@@ -70,6 +70,14 @@ gc = "Tracing"
 license = "MIT"
 notes = "Lightweight dynamically-typed embedded scripting language designed for lower-performance devices with limited memory."
 
+[Boa]
+url = "https://github.com/boa-dev/boa"
+lang = "JavaScript"
+impl_in = "Rust"
+gc = "Tracing"
+license = "Unlicense or MIT"
+notes = "Supports more than 90% of the latest ECMAScript specification."
+
 [Boron]
 url = "http://urlan.sourceforge.net/boron/"
 lang = "Boron"

@@ -65,6 +65,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | Io | [Io](https://github.com/stevedekorte/io) | C | Tracing | BSD-3-Clause | A prototype-based OO language. |
 | Janet | [Janet](https://janet-lang.org/) | C | Tracing | MIT | A functional and imperative language with a Lisp syntax. |
 | Java | [BeanShell](https://github.com/beanshell/beanshell/) | Java | JVM&#39;s GC | Apache-2.0 | An small, embeddable Java source code interpreter. Understands Java code with certain extensions like method closures. |
+| JavaScript | [Boa](https://github.com/boa-dev/boa) | Rust | Tracing | Unlicense or MIT | Supports more than 90% of the latest ECMAScript specification. |
 | JavaScript | [Duktape](http://duktape.org/) | C | Ref. counting + cycle-detecting tracing GC | MIT | Implements JavaScript E5/E5.1. |
 | JavaScript | [Espruino](https://github.com/espruino/Espruino) | C | Tracing | MPL-2.0 | Implements a subset of JavaScript ES5 in a way suitable for embedded hardware with 8+ KiB RAM. |
 | JavaScript | [Goja](https://github.com/dop251/goja) | Go | Go&#39;s GC | MIT | Implements ECMAScript 5.1. Better standard compliance and performance than otto. |
