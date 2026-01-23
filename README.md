@@ -122,6 +122,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | Rexx | [ooRexx](http://www.oorexx.org/) | C++ | Tracing | CPL | Implements Rexx extended with objects. |
 | Rhai | [Rhai](https://github.com/jonathandturner/rhai) | Rust | None (Rust-style lifetimes) | MIT or Apache-2.0 | An embedded scripting language for Rust inspired by ChaiScript. |
 | Ring | [Ring](https://github.com/ring-lang/ring) | C | Tracing | MIT | An embeddable applications programming language with a large standard library and GIL-less multithreading. |
+| Risor | [Risor](https://github.com/risor-io/risor) | Go | Go&#39;s GC | Apache-2.0 | A scripting language for Go developers and DevOps. |
 | Ruby | [JRuby](http://www.jruby.org/) | Java | JVM&#39;s GC | Choice of EPL, GPL, and LGPL | An implementation of Ruby on the JVM. |
 | Ruby | [mruby](https://github.com/mruby/mruby) | C | Tracing | MIT | A lightweight implementation of Ruby. Has a compile-time package manager. |
 | Ruby | [mruby/c](https://github.com/mrubyc/mrubyc) | C | Ref. counting | BSD-3-Clause | An even smaller implementation of Ruby for microcontrollers with limited memory. |
