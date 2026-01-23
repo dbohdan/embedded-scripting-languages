@@ -236,7 +236,7 @@ lang = "Basic"
 impl_in = "Rust"
 gc = "Ref. counting"
 license = "Apache-2.0"
-notes = "BASIC-like language with strong typing."
+notes = "BASIC-like language with static typing."
 
 [ephp]
 url = "https://github.com/bragful/ephp"

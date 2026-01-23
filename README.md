@@ -25,7 +25,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | Awk | [GoAWK](https://github.com/benhoyt/goawk) | Go | Go&#39;s GC | MIT | A POSIX-compliant AWK, with CSV support. |
 | Awk | [Libmawk](http://repo.hu/projects/libmawk/) | C | Ref. counting | **GPL-2.0** | Implements Awk. A fork of mawk 1.3 restructured for embedding. |
 | Awk, Basic, Pascal | [Libfawk](http://repo.hu/projects/libfawk/) | C | Ref. counting | BSD-3-Clause | A multi-language VM. Includes compilers for three languages: Fawk (Awk dialect), Fbas (Basic dialect), and Fpas (Pascal dialect). |
-| Basic | [EndBASIC](https://github.com/endbasic/endbasic) | Rust | Ref. counting | Apache-2.0 | BASIC-like language with strong typing. |
+| Basic | [EndBASIC](https://github.com/endbasic/endbasic) | Rust | Ref. counting | Apache-2.0 | BASIC-like language with static typing. |
 | Basic | [MY-BASIC](https://github.com/paladin-t/my_basic) | C | Ref. counting + cycle-detecting tracing GC | MIT | A Basic dialect with prototype-based OOP. |
 | Berry | [Berry](https://github.com/berry-lang/berry) | C | Tracing | MIT | Lightweight dynamically-typed embedded scripting language designed for lower-performance devices with limited memory. |
 | Boron | [Boron](http://urlan.sourceforge.net/boron/) | C | Tracing | LGPL-3.0-or-later | An embeddable scripting language similar to Rebol. |
