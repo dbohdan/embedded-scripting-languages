@@ -222,6 +222,14 @@ gc = "Boehm-Weiser GC"
 license = "LGPL-2.0-or-later"
 notes = "Full Common Lisp implementation, available as a shared library `libecl.so` embeddable in any C, C++ or other application."
 
+[EndBASIC]
+url = "https://github.com/endbasic/endbasic"
+lang = "Basic"
+impl_in = "Rust"
+gc = "Ref. counting"
+license = "Apache-2.0"
+notes = "BASIC-like language with strong typing."
+
 [ephp]
 url = "https://github.com/bragful/ephp"
 lang = "PHP"
