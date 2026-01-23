@@ -912,6 +912,14 @@ gc = "Tracing"
 license = "MIT"
 notes = "An embeddable applications programming language with a large standard library and GIL-less multithreading."
 
+[Risor]
+url = "https://github.com/risor-io/risor"
+lang = "Risor"
+impl_in = "Go"
+gc = "Go's GC"
+license = "Apache-2.0"
+notes = "A scripting language for Go developers and DevOps."
+
 [Ruby]
 url = "https://www.ruby-lang.org/en/"
 lang = "Ruby"
