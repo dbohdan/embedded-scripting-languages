@@ -107,6 +107,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | pocketlang | [pocketlang](https://github.com/ThakeeNathees/pocketlang) | C | Tracing | MIT | A small language syntactically similar to Ruby. [Embedding examples](https://github.com/ThakeeNathees/pocketlang/tree/master/tests/native/). [Performance comparison](https://github.com/ThakeeNathees/pocketlang#performance). |
 | Prolog | [Erlog](https://github.com/rvirding/erlog) | Erlang | None () | Apache-2.0 | Interprets a subset of standard Prolog. |
 | Prolog | [Golog](https://github.com/mndrix/golog) | Go | Go&#39;s GC | MIT | Implements a subset of standard Prolog. |
+| Prolog | [ichiban/prolog](https://github.com/ichiban/prolog) | Go | Go&#39;s GC | MIT | Adheres the ISO standard and comes with the ISO predicates as well as the Prologue for Prolog and DCG predicates. |
 | Python | [CircuitPython](https://github.com/adafruit/circuitpython) | C | Tracing | MIT | A fork of MicroPython, designed for API uniformity across many microcontrollers. |
 | Python | [gpython](https://github.com/go-python/gpython) | Go | Go&#39;s GC | BSD-3-Clause | Implements a subset of Python 3.4. |
 | Python | [GraalPy](https://github.com/oracle/graalpython) | C, Java | JVM&#39;s GC | UPL-1.0 | Implements Python 3 for GraalVM (HotSpot JVM) using the Truffle framework. |

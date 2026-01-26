@@ -424,6 +424,14 @@ gc = "Tracing (lazy sweep)"
 license = "MIT"
 notes = "A bytecode interpreter and a baseline JIT compiler (x86/x86\\_64 only) for [Haxe](https://haxe.org/)."
 
+["ichiban/prolog"]
+url = "https://github.com/ichiban/prolog"
+lang = "Prolog"
+impl_in = "Go"
+gc = "Go's GC"
+license = "MIT"
+notes = "Adheres the ISO standard and comes with the ISO predicates as well as the Prologue for Prolog and DCG predicates."
+
 [Interpreter]
 url = "https://github.com/Tyill/interpreter"
 lang = "Interpreter"
