@@ -504,6 +504,14 @@ gc = "Ref. counting"
 license = "Various BSD-like"
 notes = "Tcl 8.4 with some 8.5 features for the JVM."
 
+[Jurassic]
+url = "https://github.com/paulbartrum/jurassic"
+lang = "JavaScript"
+impl_in = "C#"
+gc = "CLR's GC"
+license = "MIT"
+notes = "JavaScript for .NET. Full support for ES5, and partial for ES6."
+
 [Jython]
 url = "http://www.jython.org/"
 lang = "Python"
