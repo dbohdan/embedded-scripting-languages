@@ -73,6 +73,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | JavaScript | [GraalJS](https://github.com/oracle/graaljs) | C++, C, Java | JVM&#39;s GC | UPL-1.0 | Implements ECMAScript 2022 for GraalVM (HotSpot JVM) using the Truffle framework. |
 | JavaScript | [JerryScript](https://github.com/jerryscript-project/jerryscript) | C | Tracing | Apache-2.0 | A full ECMAScript 5.1 interpreter written in C99 and optimized for low memory consumption. Uses CMake. |
 | JavaScript | [jsish](https://github.com/pcmacdon/jsish) | C | Ref. counting | MIT | A JavaScript ES 5.2+ interpreter. Internally structured after Tcl with an extensive C API. Features include subinterpreters, introspection, SQLite bindings, and a web framework with WebSocket support. The code is valid C and C++. |
+| JavaScript | [Jurassic](https://github.com/paulbartrum/jurassic) | C# | CLR&#39;s GC | MIT | JavaScript for .NET. Full support for ES5, and partial for ES6. |
 | JavaScript | [MicroQuickJS](https://github.com/bellard/mquickjs) | C | Tracing | MIT | A interpreter related to QuickJS aimed at embedded systems that fits in 100 kB of ROM and as little as 10 kB of RAM. Supports a subset of JavaScript close to ES5. |
 | JavaScript | [MuJS](https://mujs.com/) | C | Tracing | ISC | Implements JavaScript (ES5). Has a similar C interface to Lua. |
 | JavaScript | [njs](https://nginx.org/en/docs/njs/) | C | None (no collection performed) | BSD-2-Clause | Implements a subset of ES5.1 with some ES6 extensions. |
