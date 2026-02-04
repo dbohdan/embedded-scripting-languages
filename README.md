@@ -33,6 +33,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | C | [tcc](https://repo.or.cz/tinycc.git/) | C | None | LGPL-2.0-only | A small C compiler that can be used as a library for a C JIT. [libtcc header](https://repo.or.cz/tinycc.git/blob/HEAD:/libtcc.h). [Embedding example](https://repo.or.cz/tinycc.git/blob/HEAD:/tests/libtcc_test.c). |
 | C#, other CLR languages | [Mono](http://www.mono-project.com/docs/advanced/embedding/scripting/) | C | Tracing | MIT and other | Implements the [CLR](https://en.wikipedia.org/wiki/Common_Language_Runtime). |
 | ChaiScript | [ChaiScript](http://chaiscript.com/) | C++ | Ref. counting | BSD-3-Clause | A header-only C++14 interpreter library. |
+| Cicada | [Cicada](https://github.com/heltilda/cicada) | C | Ref. counting + Tracing | MIT | A lightweight interpreted language that integrates with C. Imperative, dynamically typed, C-like syntax, ~250 kB binary. |
 | Clojure | [sci](https://github.com/borkdude/sci) | Clojure | host VM&#39;s GC | EPL-1.0 | An interpreter for a subset of Clojure for Clojure and ClojureScript. |
 | Common Expression Language (CEL) | [cel-go](https://github.com/google/cel-go) | Go | Go&#39;s GC | Apache-2.0 | Go implementation of CEL, a non-Turing-complete expression language. |
 | Common Expression Language (CEL) | [cel-python](https://github.com/cloud-custodian/cel-python) | Python | Python&#39;s GC | Apache-2.0 | A non-Turing-complete expression language. |
