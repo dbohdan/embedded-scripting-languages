@@ -118,6 +118,14 @@ gc = "None"
 license = "MIT"
 notes = "A non-Turing-complete expression language."
 
+["Cicada"]
+url = "https://github.com/heltilda/cicada"
+lang = "Cicada"
+impl_in = "C"
+gc = "Ref. counting + Tracing"
+license = "MIT"
+notes = "A lightweight interpreted language that integrates with C. Imperative, dynamically typed, C-like syntax, ~250 kB binary."
+
 [CircuitPython]
 url = "https://github.com/adafruit/circuitpython"
 lang = "Python"
