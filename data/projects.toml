@@ -1096,6 +1096,14 @@ gc = "None"
 license = "LGPL-2.0-only"
 notes = "A small C compiler that can be used as a library for a C JIT. [libtcc header](https://repo.or.cz/tinycc.git/blob/HEAD:/libtcc.h). [Embedding example](https://repo.or.cz/tinycc.git/blob/HEAD:/tests/libtcc_test.c)."
 
+[Tengo]
+url = "https://github.com/d5/tengo"
+lang = "Tengo"
+impl_in = "Go"
+gc = "Go's GC"
+license = "MIT"
+notes = "A dynamic script language for Go."
+
 [TinyScheme]
 url = "http://tinyscheme.sourceforge.net/"
 lang = "Scheme"
