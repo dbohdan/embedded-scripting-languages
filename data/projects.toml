@@ -688,6 +688,14 @@ gc = "Tracing"
 license = "MIT and other"
 notes = "Implements the [CLR](https://en.wikipedia.org/wiki/Common_Language_Runtime)."
 
+[Monty]
+url = "https://github.com/pydantic/monty"
+lang = "Python"
+impl_in = "Rust"
+gc = "Ref. counting + cycle-detecting tracing GC"
+license = "MIT"
+notes = "Provides sandboxed environment to run untrusted Python code. Supports reasonable subset of Python 3."
+
 [MoonSharp]
 url = "https://www.moonsharp.org/"
 lang = "Lua"

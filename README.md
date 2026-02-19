@@ -115,6 +115,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | Python | [GraalPy](https://github.com/oracle/graalpython) | C, Java | JVM&#39;s GC | UPL-1.0 | Implements Python 3 for GraalVM (HotSpot JVM) using the Truffle framework. |
 | Python | [Jython](http://www.jython.org/) | Java | JVM&#39;s GC | PSFL (BSD-like) | An implementation of Python 2 for the JVM. |
 | Python | [MicroPython](https://github.com/micropython/micropython) | C | Tracing | MIT | Implements Python 3.4 syntax and some of the core datatypes. |
+| Python | [Monty](https://github.com/pydantic/monty) | Rust | Ref. counting + cycle-detecting tracing GC | MIT | Provides sandboxed environment to run untrusted Python code. Supports reasonable subset of Python 3. |
 | Python | [PikaPython](https://github.com/pikasTech/PikaPython) | C | Ref. counting | MIT | Implements a variant of Python 3. The degree of compatibility with Python seems to be undocumented. Runs in as little as 4 KiB of RAM. Targets microcontrollers and Linux. |
 | Python | [pocketpy](https://github.com/blueloveTH/pocketpy) | C++ | Tracing | MIT | Implements a subset of Python 3 (with [some differences](https://pocketpy.dev/features/differences/#different-behaviors)) in a single C++17 header file. |
 | Python | [Python](https://www.python.org/) | C | Ref. counting + cycle-detecting tracing GC | PSFL (BSD-like) | ["Embedding Python in Another Application"](https://docs.python.org/3/extending/embedding.html). |
