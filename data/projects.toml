@@ -166,6 +166,14 @@ gc = "MPS GC (Boehm-Weiser also supported)"
 license = "LGPL-2.0-or-later"
 notes = "Full Common Lisp implementation well-integrated with C++, using LLVM for code generation to integrate closely with C++ applications or libraries."
 
+[Cyber]
+url = "https://github.com/fubark/cyber"
+lang = "Cyber"
+impl_in = "Zig"
+gc = "Ref. counting"
+license = "MIT"
+notes = "Concurrent scripting language designed with performance in mind."
+
 [daScript]
 url = "https://dascript.org/"
 lang = "daScript"

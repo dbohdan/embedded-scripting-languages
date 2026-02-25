@@ -40,6 +40,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | Common Expression Language (CEL) | [cel-rust](https://github.com/clarkmcc/cel-rust) | Rust | None | MIT | A non-Turing-complete expression language. |
 | Common Lisp | [Clasp](https://github.com/drmeister/clasp) | Common Lisp, C++ | MPS GC (Boehm-Weiser also supported) | LGPL-2.0-or-later | Full Common Lisp implementation well-integrated with C++, using LLVM for code generation to integrate closely with C++ applications or libraries. |
 | Common Lisp | [Embeddable Common Lisp](https://gitlab.com/embeddable-common-lisp/ecl) | Common Lisp, C | Boehm-Weiser GC | LGPL-2.0-or-later | Full Common Lisp implementation, available as a shared library `libecl.so` embeddable in any C, C++ or other application. |
+| Cyber | [Cyber](https://github.com/fubark/cyber) | Zig | Ref. counting | MIT | Concurrent scripting language designed with performance in mind. |
 | daScript | [daScript](https://dascript.org/) | C++ | None (region-based + manual MM?) | BSD-3-Clause | A statically-typed [performance-oriented](https://dascript.org/#performance) scripting language. |
 | Datalog | [AbcDatalog](http://abcdatalog.seas.harvard.edu/) | Java | JVM&#39;s GC | BSD-3-Clause | Implements Datalog. |
 | Datalog | [Cascalog](https://github.com/nathanmarz/cascalog) | Clojure | JVM&#39;s GC | Apache-2.0 | Implements Datalog. |
