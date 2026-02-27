@@ -992,6 +992,14 @@ gc = "Ref. counting"
 license = "MIT or Apache-2.0"
 notes = "An embeddable dynamic programming language. Asynchronous-first and [const-evaluation](https://rune-rs.github.io/#const-evaluation)."
 
+[Rye]
+url = "https://github.com/refaktor/rye"
+lang = "Rye"
+impl_in = "Go"
+gc = "Go's GC"
+license = "BSD-3-Clause"
+notes = "A dynamic, homoiconic language inspired by Rebol, Factor, Shell, and Go."
+
 [s7]
 url = "https://ccrma.stanford.edu/software/snd/snd/s7.html"
 lang = "Scheme"
