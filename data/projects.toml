@@ -1158,7 +1158,7 @@ lang = "Scheme"
 impl_in = "Go"
 gc = "Go's GC"
 license = "Apache-2.0"
-notes = "R7RS. Pure Go, no CGo. Bytecode compiler and stack-based VM. Hygienic macros ([sets of scopes](https://www.cs.utah.edu/plt/scope-sets/)), first-class continuations, numeric tower. [Embedding API](https://pkg.go.dev/github.com/aalpar/wile)."
+notes = "R7RS. Pure Go, no CGo. Bytecode compiler and stack-based VM. Hygienic macros ([sets of scopes](https://www.cs.utah.edu/plt/scope-sets/)), first-class continuations, numeric tower. Two-layer [sandboxing](https://github.com/aalpar/wile/blob/master/docs/SANDBOXING.md): extensions not loaded don't exist at compile time; a runtime authorizer gates privileged operations. [Embedding API](https://pkg.go.dev/github.com/aalpar/wile)."
 
 [Wren]
 url = "https://github.com/munificent/wren"
