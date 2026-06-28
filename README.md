@@ -90,6 +90,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | Lua | [Go-Lua](https://github.com/Shopify/go-lua) | Go | Go&#39;s GC | MIT | Implements a subset of Lua 5.2. |
 | Lua | [GopherLua](https://github.com/yuin/gopher-lua) | Go | Go&#39;s GC | MIT | Implements Lua 5.1 with the added support for Go's channels. Lacks the debug hooks and several functions from the C version. |
 | Lua | [Lua](http://lua.org/) | C | Tracing | MIT | The reference implementation of what is likely the world's most popular embedded scripting language. Allows you to precompile scripts to bytecode. Versions 5.1-5.3, which are the ones used today, are not fully compatible with each other. |
+| Lua | [Lua.ex](https://github.com/tv-labs/lua) | Elixir | None (no collection performed) | Apache-2.0 | An implementation of a subset of Lua 5.3 in pure Elixir. |
 | Lua | [LuaJ](https://sourceforge.net/projects/luaj/) | Java | JVM&#39;s GC | MIT | A Lua 5.2 spec-compliant interpreter written in Java for JME and JSE. Complies Lua directly to JVM bytecode. |
 | Lua | [LuaJIT](http://luajit.org/) | C | Tracing | MIT | Fully compatible with Lua 5.1. Has a built-in C FFI library. [Performance comparison](https://luajit.org/performance.html). |
 | Lua | [Lua-ML](https://github.com/lindig/lua-ml) | OCaml | OCaml&#39;s GC | BSD-2-Clause | Embeddable Lua 2.5 reimplementation that integrates with OCaml type and module system. It is possible to extend or even replace the standard library with custom modules. |

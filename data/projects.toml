@@ -608,6 +608,14 @@ gc = "Tracing"
 license = "MIT"
 notes = "The reference implementation of what is likely the world's most popular embedded scripting language. Allows you to precompile scripts to bytecode. Versions 5.1-5.3, which are the ones used today, are not fully compatible with each other."
 
+["Lua.ex"]
+url = "https://github.com/tv-labs/lua"
+lang = "Lua"
+impl_in = "Elixir"
+gc = "None (no collection performed)"
+license = "Apache-2.0"
+notes = "An implementation of a subset of Lua 5.3 in pure Elixir."
+
 [LuaJ]
 url = "https://sourceforge.net/projects/luaj/"
 lang = "Lua"
