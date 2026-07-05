@@ -1160,6 +1160,14 @@ gc = "JVM's GC"
 license = "UPL-1.0"
 notes = "Implements Ruby for GraalVM (HotSpot JVM) using Truffle."
 
+["Tim Engine"]
+url = "https://github.com/tim-engine/tim"
+lang = "Tim language (timl)"
+impl_in = "Nim"
+gc = "ARC/ORC"
+license = "LGPL-3.0-or-later"
+notes = "A high-performance standalone/embeddable front-end framework and scripting language"
+
 [Umka]
 url = "https://github.com/vtereshkov/umka-lang"
 lang = "Umka"
