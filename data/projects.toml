@@ -1064,6 +1064,14 @@ gc = "Tracing"
 license = "**GPL-3.0-or-later**"
 notes = 'A Python-inspired language. Targets "processors too small to run MicroPython".'
 
+[Sobek]
+url = "https://github.com/grafana/sobek"
+lang = "JavaScript"
+impl_in = "Go"
+gc = "Go's GC"
+license = "MIT"
+notes = "Implements ECMAScript 5.1+. A fork of Goja. Supports ECMAScript Modules."
+
 [SquiLu]
 url = "https://github.com/mingodad/squilu"
 lang = "SquiLu"

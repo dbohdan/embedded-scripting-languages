@@ -71,7 +71,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | JavaScript | [Boa](https://github.com/boa-dev/boa) | Rust | Tracing | Unlicense or MIT | Supports more than 90% of the latest ECMAScript specification. |
 | JavaScript | [Duktape](http://duktape.org/) | C | Ref. counting + cycle-detecting tracing GC | MIT | Implements JavaScript E5/E5.1. |
 | JavaScript | [Espruino](https://github.com/espruino/Espruino) | C | Tracing | MPL-2.0 | Implements a subset of JavaScript ES5 in a way suitable for embedded hardware with 8+ KiB RAM. |
-| JavaScript | [Goja](https://github.com/dop251/goja) | Go | Go&#39;s GC | MIT | Implements ECMAScript 5.1. Better standard compliance and performance than otto. |
+| JavaScript | [Goja](https://github.com/dop251/goja) | Go | Go&#39;s GC | MIT | Implements ECMAScript 5.1+. Better standard compliance and performance than otto. |
 | JavaScript | [GraalJS](https://github.com/oracle/graaljs) | C++, C, Java | JVM&#39;s GC | UPL-1.0 | Implements ECMAScript 2022 for GraalVM (HotSpot JVM) using the Truffle framework. |
 | JavaScript | [JerryScript](https://github.com/jerryscript-project/jerryscript) | C | Tracing | Apache-2.0 | A full ECMAScript 5.1 interpreter written in C99 and optimized for low memory consumption. Uses CMake. |
 | JavaScript | [jsish](https://github.com/pcmacdon/jsish) | C | Ref. counting | MIT | A JavaScript ES 5.2+ interpreter. Internally structured after Tcl with an extensive C API. Features include subinterpreters, introspection, SQLite bindings, and a web framework with WebSocket support. The code is valid C and C++. |
@@ -81,6 +81,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | JavaScript | [njs](https://nginx.org/en/docs/njs/) | C | None (no collection performed) | BSD-2-Clause | Implements a subset of ES5.1 with some ES6 extensions. |
 | JavaScript | [otto](https://github.com/robertkrimen/otto) | Go | Go&#39;s GC | MIT | Implements ES5 with [some limitations](https://github.com/robertkrimen/otto#caveat-emptor). |
 | JavaScript | [QuickJS](https://bellard.org/quickjs/) | C | Ref. counting + cycle-detecting tracing GC | MIT | A small embedded JavaScript interpreter that implements almost all of ES2023. |
+| JavaScript | [Sobek](https://github.com/grafana/sobek) | Go | Go&#39;s GC | MIT | Implements ECMAScript 5.1+. A fork of Goja. Supports ECMAScript Modules. |
 | Jinx | [Jinx](https://jamesboer.github.io/Jinx/) | C++17 | Ref. counting | MIT | Designed for use in realtime applications such as video games. |
 | Jsonnet | [Jsonnet](https://jsonnet.org/) | C++ | Tracing | Apache-2.0 | A functional configuration language that extends JSON. Untrusted code: can't access the file system or network, can use up memory and CPU time for a DoS attack. Has [bindings](https://jsonnet.org/ref/bindings.html) for C, C++, Go, Python, and other languages, as well as a separate native Go implementation. |
 | Ketos | [Ketos](https://github.com/murarth/ketos) | Rust | None (no heap allocation)? | Apache-2.0 | A functional Lisp. |
