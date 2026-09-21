@@ -348,7 +348,7 @@ lang = "JavaScript"
 impl_in = "Go"
 gc = "Go's GC"
 license = "MIT"
-notes = "Implements ECMAScript 5.1. Better standard compliance and performance than otto."
+notes = "Implements ECMAScript 5.1+. Better standard compliance and performance than otto."
 
 [Golog]
 url = "https://github.com/mndrix/golog"
