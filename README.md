@@ -163,7 +163,7 @@ To sort and filter the list interactively, visit the [webpage](https://dbohdan.g
 | Tcl | [Picol](https://chiselapp.com/user/dbohdan/repository/picol/) | C | None (no reference support) | BSD-2-Clause | A header-only library interpreter for a limited dialect of Tcl. |
 | Tcl | [Tcl](http://tcl-lang.org/) | C | Ref. counting | Tcl license (BSD-like) | An embeddable general-purpose scripting language with a rich C API. Includes a cross-platform GUI toolkit called [Tk](https://wiki.tcl-lang.org/477). See ["How to embed Tcl in C applications"](https://wiki.tcl-lang.org/2074). |
 | Tengo | [Tengo](https://github.com/d5/tengo) | Go | Go&#39;s GC | MIT | A dynamic script language for Go. |
-| Toy | [Toy](https://github.com/Ratstail91/Toy) | C | Ref. counting | Zlib | Has an optional type system. [Embedding Toy](https://toylang.com/deep-dive/embedding-toy). |
+| Toy | [Toy](https://github.com/krgamestudios/Toy) | C | Ref. counting | Zlib | Has an optional type system. |
 | Umka | [Umka](https://github.com/vtereshkov/umka-lang) | C | Ref. counting | BSD-2-Clause | Statically typed. |
 | Wirefilter | [Wirefilter](https://github.com/cloudflare/wirefilter) | Rust | None (no dynamic memory allocation) | MIT | An expression language for Wireshark-like filters. |
 | Wren | [Wren](https://github.com/munificent/wren) | C | Tracing | MIT | A small class-based performance-oriented scripting language. [Performance comparison](https://wren.io/performance.html). |
