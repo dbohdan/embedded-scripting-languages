@@ -1176,6 +1176,14 @@ gc = "Ref. counting"
 license = "BSD-2-Clause"
 notes = "Statically typed."
 
+[Weave]
+url = "https://github.com/AtharvRaotole/weave"
+lang = "Python (subset)"
+impl_in = "Rust"
+gc = "None (values are plain trees with no shared references)"
+license = "MIT"
+notes = "Meant for scripts written by LLM agents that call host functions (tools). Independent calls run concurrently and writes are ordered by their declared effects. Embeds in Rust and Python (PyO3), also runs as a CLI and an MCP server."
+
 [Wirefilter]
 url = "https://github.com/cloudflare/wirefilter"
 lang = "Wirefilter"
